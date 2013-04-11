@@ -1,0 +1,18 @@
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+span.prevnext_button {position:relative; display:block; top:40%;}
+ul.bjqs-controls.v-centered li a{position:absolute; font-size:80px; color:#333333; height:100%; opacity:0.7;}
+ul.bjqs-controls.v-centered li a:hover {opacity:1; font-weight:normal;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:10px;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:10px;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+span.slider_button {display:block; width:16px; height:16px; margin: 8px; background-color:#cccccc; opacity:0.3;}
+span.slider_button:hover, li.active-marker a span.slider_button:hover { background-color:#333333; }
+li.active-marker a span.slider_button { background-color:#999999; }

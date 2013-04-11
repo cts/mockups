@@ -1,0 +1,332 @@
+/*
+Theme Name: ShafiCustomTheme
+Theme URI: 
+Description: A custom theme for MIT professor Shafi Goldwasser
+Version: 1.0
+Author: John Sullivan
+Author URI: 
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face
+{
+  font-family: 'New_Circle_Semi';
+  src: url('fonts/New_Circle_Semi.ttf');
+}
+@font-face
+{
+  font-family: 'Avenir';
+  src: url('fonts/Avenir');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	line-height: 130%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body,html {
+	width:100%;
+	height:100%;
+}
+body {
+	color:#333333;
+	font-size:14px;
+	line-height: 130%;
+	font-family: Avenir, New_Circle_Semi, Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+/*
+	Template global styles
+*/
+
+h1 {
+	font-size:45px;
+	color:#1e5880;
+	font-weight:bold;
+	margin:20px 0;
+}
+h2 {
+	font-size:40px;
+	color:#1e5880;
+	font-weight:bold;
+	margin:20px 0;
+}
+h3 {
+	font-size:35px;
+	color:#1e5880;
+	font-weight:bold;
+	margin:20px 0;
+}
+h4, h4 a, h4 a:visited, h4 a:active {
+	color:#1e5880;
+	font-size:30px;
+	font-weight:bold;
+	margin:20px 0;
+	text-decoration:none;
+}
+h4 a:hover {
+	text-decoration:underline;
+}
+h5 {
+	color:#1e5880;
+	font-size:20px;
+	font-weight:bold;
+}
+hr {
+	border:1px solid #333333;
+	margin:20px 0;
+}
+a:hover {
+	color:#133953;
+	text-decoration:none;
+}
+a:active {
+	color:#133953;
+	text-decoration:none;
+}
+a {
+	color:#2f8ac8;
+	text-decoration:none;
+}
+
+/* Template styles */
+.clear {
+	clear:both;
+}
+.wrapper {
+	width:100%;
+}
+.header {
+	width:100%;
+	margin:0px 0px 10px 0px;
+}
+.header .logo {
+	background-repeat:no-repeat;
+	width:100%;
+	height:43px;
+	position:relative;
+}
+
+.header .nav_items {
+	position:absolute;
+	bottom:11px;
+	right:0;
+}
+
+.content_wrapper {
+	width:1024px;
+	margin:10px auto;
+}
+.blocks {
+	width:100%;
+}
+.block_row {
+	position:relative;
+	background: #cccccc url('img/1024_cols.png');
+	background-repeat:repeat-y;
+	margin:25px 0;
+}
+.block_wrapper {
+	float:left;
+	display:block;
+	width:322px;
+	height:100%;
+}
+
+.block_wrapper.middle {
+	margin:0 29px;
+}
+.block_header {
+	width:322px;
+	height:187px;
+}
+.block_header#block_1 {
+	background: url('img/blocks/block_1.png');
+}
+.block_header#block_2 {
+	background: url('img/blocks/block_2.png');
+}
+.block_header#block_3 {
+	background: url('img/blocks/block_3.png');
+}
+.block_header#block_4 {
+	background: url('img/blocks/block_4.png');
+}
+.block_header#block_5 {
+	background: url('img/blocks/block_5.png');
+}
+.block_header#block_6 {
+	background: url('img/blocks/block_6.png');
+}
+
+.block_content_wrapper {
+	margin:10px 13px;
+	background: #cccccc url('img/1x1_gray.png');
+	background-repeat:repeat;
+}
+.block_content {
+	width:100%;
+	line-height:19px;
+}
+h3.home_block {
+	font-size: 20px;
+	font-weight:bold;
+	margin: 10px 0 5px 0;
+}
+.block_content p {
+	margin:5px 0;
+	font-size:15px;
+}
+ul.home_block {
+	margin:5px 0;
+	list-style:none;
+}
+ul.home_block li {
+	font-size:15px;
+}
+
+.hero {
+	margin-bottom:50px;
+}
+
+.slide {
+	height:430px;
+	width:1024px;
+}
+
+#slide1 {
+	background: url('img/hero/hero_1.jpg');
+}
+#slide2 {
+	background: url('img/hero/hero_2.jpg');
+}
+#slide3 {
+	background: url('img/hero/hero_3.jpg');
+}
+.bottom_margin {
+	display: block;
+	width:100%;
+	height:50px;
+}
+/* Page Styles */
+.sorry.error {
+	width:100%;
+}
+.sorry.error h2 {
+	font-size:35px;
+	font-weight:bold;
+	color:#333333;
+}
+.sorry.error p {
+	margin:25px;
+}
+.page_wrapper {
+	width:100%;
+}
+
+.header_block p {
+	color:#1e5880 !important;
+	font-size:16px !important;
+	margin:10px 0 !important;	
+}
+
+.content_block p, .content_block ul{
+	margin:25px 0;
+	font-size:14px;
+}
+.content_block ul {
+	margin-left:30px;
+}
+.content_block ul li {
+	padding-left:50px;
+	margin:4px 0;
+}
+
+
+.nav_items li {
+	float:left;
+	display:block;
+	margin-right:15px;
+}
+.nav_items li:after{
+	content:"|";
+	font-size:16px;
+}
+.nav_items a:hover, .nav_items a:active {
+	color:#333333;
+	text-decoration: none;
+}
+.nav_items a {
+	font-size:16px;
+	color:#333333;
+	margin-right:15px;
+}
+
+a.nav_item, span.nav_item_pipe {
+	font-size:16px;
+	color:#333333;
+	margin-right:15px;
+	float:left;
+}
+.nav_items a:hover, a.nav_item:hover {
+	font-weight:normal;
+	color:#1e5880;
+}
+
+
+/* Single Blog Post styles */
+div#single_wrapper div.content{
+	margin:20px 0;
+}
+
+.blogpost_hr {
+	border:1px solid #cccccc;
+	width:400px;
+}
+
+/* Comments styles */
+
+div.comments {
+	width:800px;
+}
+div.comment-body {
+	background-color:#eeeeee;
+}
+ul.children {
+	margin-left:25px;
+}
+ol.commentList, ul.children {
+	list-style: none;
+	list-style-type: none;
+}
+div.reply, div.comment-meta, div.comment-body p {
+	padding-left:15px;
+}
+div.comment-body p {
+	margin:10px 0;
+}
+div#respond {
+	margin:15px 0;
+}
+form#commentform label {
+	font-weight:bold;
+}
+form#commentform input, form#commentform label {
+	display:block;
+}
+form#commentform input, form#commentform textarea {
+	width:300px;
+}
+#submitButton {
+	width:125px;
+}
+div.reply {
+	padding: 0 0 7px 15px;
+}
