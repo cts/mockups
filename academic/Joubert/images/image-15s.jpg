@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>EECS from the Trenches   &raquo; Page not found</title>
+
+<link rel="stylesheet" href="http://blog.njoubert.com/wp-content/themes/fluid-blue/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://blog.njoubert.com/wp-content/themes/fluid-blue/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" title="EECS from the Trenches RSS Feed" href="http://blog.njoubert.com/feed" />
+<link rel="pingback" href="http://blog.njoubert.com/xmlrpc.php" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.njoubert.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.njoubert.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='EECS from the Trenches' href='http://blog.njoubert.com' />
+<meta name="generator" content="WordPress 3.0.1" />
+<style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+</head>
+
+<body>
+<div id="page">
+<div id="header">
+	<div id="headertitle">
+		<h1><a href="http://blog.njoubert.com" title="EECS from the Trenches: Niels Joubert&#039;s Portfolio and Blog">EECS from the Trenches</a></h1>
+		<p>Niels Joubert&#039;s Portfolio and Blog</p>
+	</div> 
+	<!-- Search box (If you prefer having search form as a sidebar widget, remove this block) -->
+	<div class="search">
+		<form method="get" id="searchform" action="http://blog.njoubert.com/">
+<input type="text" size="20" name="s" id="s" value="Search..."  onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';"/>
+</form>
+	</div> 
+	<!-- Search ends here-->
+		
+</div>
+
+<div id="navbar">
+<ul id="nav">
+	<li><a href="http://blog.njoubert.com">Home</a></li>
+	<li class="page_item page-item-272"><a href="http://blog.njoubert.com/home" title="Portfolio">Portfolio</a></li>
+<li class="page_item page-item-276"><a href="http://blog.njoubert.com/resume" title="Resume">Resume</a></li>
+<li class="page_item page-item-282"><a href="http://blog.njoubert.com/projects" title="Projects">Projects</a>
+<ul class='children'>
+	<li class="page_item page-item-279"><a href="http://blog.njoubert.com/projects/subaru-wrx-ej205-engine-rebuild" title="Subaru EJ205 Engine Rebuild">Subaru EJ205 Engine Rebuild</a></li>
+	<li class="page_item page-item-296"><a href="http://blog.njoubert.com/projects/wrx-gauges" title="WRX Gauges">WRX Gauges</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="wrapper">
+
+	<div id="content">
+
+		<h2 class="center">Error 404 - Not Found</h2>
+
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			
+			<li id="search-3" class="widget widget_search"><h2 class="widgettitle">Search my blog</h2>
+<form method="get" id="searchform" action="http://blog.njoubert.com/">
+<input type="text" size="20" name="s" id="s" value="Search..."  onblur="if(this.value=='') this.value='Search...';" onfocus="if(this.value=='Search...') this.value='';"/>
+</form>
+</li>
+<li id="collapsible-archive" class="widget widget_ara_collapsiblearchive">
+	<!-- Collapsible Archive Widget starts here -->
+	<script type="text/javascript">
+	//<!--
+	
+		collapsiblearchive_toggle = function(listelement, listsign)
+		{
+			var listobject = document.getElementById(listelement);
+			var sign = document.getElementById(listsign);
+			if(listobject.style.display == 'block')
+			{
+				listobject.style.display = 'none';
+				collapsiblearchive_togglesign(sign, true);
+			}
+			else
+			{
+				listobject.style.display = 'block';
+				collapsiblearchive_togglesign(sign, false);
+			}
+		}
+			collapsiblearchive_togglesign = function(element,visibility)
+		{
+			(visibility == false ? element.innerHTML = '<img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/minus.png" alt="" />&nbsp;' : element.innerHTML = '<img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;');
+		}
+
+	// -->
+	</script>
+	<h2 class="widgettitle">Archives</h2>
+
+
+<ul>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2013','ara_ca_mosign2013')"><span id="ara_ca_mosign2013"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/minus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2013">2013</a>&nbsp;(2)
+		<ul id="ara_ca_mo2013" style="display:block">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20133','ara_ca_posign20133')"><span id="ara_ca_posign20133"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2013/03' title='Mar 2013'>Mar 2013</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20133" style="display:none">
+			<li><a href="http://blog.njoubert.com/2013/03/a-conversation-about-quality-in-manufacturing-and-american-made.html">A conversation about Quality in Manufacturing, and American Made</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20131','ara_ca_posign20131')"><span id="ara_ca_posign20131"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2013/01' title='Jan 2013'>Jan 2013</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20131" style="display:none">
+			<li><a href="http://blog.njoubert.com/2013/01/wifi-on-the-raspberry-pi-using-edimax-ew-7811un-and-the-2012-12-16-wheezy-raspbian-image.html">Wifi on the Raspberry Pi using EDIMAX EW-7811Un and the 2012-12-16 wheezy raspbian image</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2012','ara_ca_mosign2012')"><span id="ara_ca_mosign2012"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2012">2012</a>&nbsp;(2)
+		<ul id="ara_ca_mo2012" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po201210','ara_ca_posign201210')"><span id="ara_ca_posign201210"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2012/10' title='Oct 2012'>Oct 2012</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po201210" style="display:none">
+			<li><a href="http://blog.njoubert.com/2012/10/quotes.html">Quotes</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20123','ara_ca_posign20123')"><span id="ara_ca_posign20123"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2012/03' title='Mar 2012'>Mar 2012</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20123" style="display:none">
+			<li><a href="http://blog.njoubert.com/2012/03/a-partial-review-of-object-oriented-javascript.html">A Partial Review of Object Oriented Javascript</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2011','ara_ca_mosign2011')"><span id="ara_ca_mosign2011"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2011">2011</a>&nbsp;(4)
+		<ul id="ara_ca_mo2011" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20119','ara_ca_posign20119')"><span id="ara_ca_posign20119"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2011/09' title='Sep 2011'>Sep 2011</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20119" style="display:none">
+			<li><a href="http://blog.njoubert.com/2011/09/motorcycle-shops-and-parts-places-for-vintage-japanese-bikes-in-the-bay-area.html">Motorcycle shops and parts places for vintage japanese bikes in the Bay Area</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20114','ara_ca_posign20114')"><span id="ara_ca_posign20114"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2011/04' title='Apr 2011'>Apr 2011</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20114" style="display:none">
+			<li><a href="http://blog.njoubert.com/2011/04/pats-paper-writing-formula.html">Pat's paper-writing formula.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20113','ara_ca_posign20113')"><span id="ara_ca_posign20113"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2011/03' title='Mar 2011'>Mar 2011</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20113" style="display:none">
+			<li><a href="http://blog.njoubert.com/2011/03/the-ideal-textmate-setup.html">The Ideal TextMate Setup.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20111','ara_ca_posign20111')"><span id="ara_ca_posign20111"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2011/01' title='Jan 2011'>Jan 2011</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20111" style="display:none">
+			<li><a href="http://blog.njoubert.com/2011/01/x-macros.html">X-Macros</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2010','ara_ca_mosign2010')"><span id="ara_ca_mosign2010"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2010">2010</a>&nbsp;(14)
+		<ul id="ara_ca_mo2010" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po201012','ara_ca_posign201012')"><span id="ara_ca_posign201012"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/12' title='Dec 2010'>Dec 2010</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po201012" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/12/structuring-iphone-apps-design-principles.html">Design Principles for Structuring iPhone Apps</a></li>
+			<li><a href="http://blog.njoubert.com/2010/12/nighttime-driving.html">Nighttime driving</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po201011','ara_ca_posign201011')"><span id="ara_ca_posign201011"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/11' title='Nov 2010'>Nov 2010</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po201011" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/11/what-rebuilding-an-engine-retaught-me-about-software-engineering.html">What rebuilding an engine (re)taught me about software engineering</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po201010','ara_ca_posign201010')"><span id="ara_ca_posign201010"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/10' title='Oct 2010'>Oct 2010</a>&nbsp;(6)</li>
+
+			<li>
+		<ul id="ara_ca_po201010" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/10/reverse-i-search-quicksilver-for-bash.html">reverse-i-search: Quicksilver for Bash</a></li>
+			<li><a href="http://blog.njoubert.com/2010/10/running-cuda-without-running-x.html">Running CUDA without running X</a></li>
+			<li><a href="http://blog.njoubert.com/2010/10/coffee.html">Coffee</a></li>
+			<li><a href="http://blog.njoubert.com/2010/10/creating-a-svn-like-centralized-git-repository.html">Creating a SVN-Like Centralized Git repository</a></li>
+			<li><a href="http://blog.njoubert.com/2010/10/new-hardware-32-core-box.html">New hardware! 32 core box!</a></li>
+			<li><a href="http://blog.njoubert.com/2010/10/haskell-idioms-part-1.html">Haskell Idioms (Part 1?)</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20109','ara_ca_posign20109')"><span id="ara_ca_posign20109"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/09' title='Sep 2010'>Sep 2010</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20109" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/09/gtc-2010-trip-report.html">GTC 2010 Trip Report</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20107','ara_ca_posign20107')"><span id="ara_ca_posign20107"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/07' title='Jul 2010'>Jul 2010</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20107" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/07/213.html"></a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20104','ara_ca_posign20104')"><span id="ara_ca_posign20104"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/04' title='Apr 2010'>Apr 2010</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20104" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/04/comparing-floating-point-numbers-for-equality.html">Comparing floating point numbers for equality. </a></li>
+			<li><a href="http://blog.njoubert.com/2010/04/compiling-the-pbrt-1-04-raytracer-on-mac-os-x-10-6.html">Compiling the pbrt 1.04 raytracer on mac OS X 10.6</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20102','ara_ca_posign20102')"><span id="ara_ca_posign20102"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2010/02' title='Feb 2010'>Feb 2010</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20102" style="display:none">
+			<li><a href="http://blog.njoubert.com/2010/02/installing-numpy-and-scipy-on-snow-leopard-the-easy-way.html">Installing Numpy and SciPy on Snow Leopard - the easy way</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2009','ara_ca_mosign2009')"><span id="ara_ca_mosign2009"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2009">2009</a>&nbsp;(17)
+		<ul id="ara_ca_mo2009" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200912','ara_ca_posign200912')"><span id="ara_ca_posign200912"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/12' title='Dec 2009'>Dec 2009</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po200912" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/12/eeebuntu-on-eeepc-701-as-a-carputer.html">RexPC: Running EEEbuntu on eeePc 701 as a Carputer in my WRX</a></li>
+			<li><a href="http://blog.njoubert.com/2009/12/planning-my-wrxs-built-in-computer.html">RexPC: Planning my WRX's built-in computer</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200911','ara_ca_posign200911')"><span id="ara_ca_posign200911"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/11' title='Nov 2009'>Nov 2009</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po200911" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/11/windows-to-mac-screen-sharing.html">Windows to Mac Screen Sharing</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20098','ara_ca_posign20098')"><span id="ara_ca_posign20098"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/08' title='Aug 2009'>Aug 2009</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po20098" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/08/resizing-your-hfs-partition-oh-boy-adobe-licenses-suck.html">Resizing your HFS+ partition? Oh boy, Adobe licenses suck!</a></li>
+			<li><a href="http://blog.njoubert.com/2009/08/arduino-16-sd-and-spi-interfacing.html">Arduino 16 SD and SPI interfacing</a></li>
+			<li><a href="http://blog.njoubert.com/2009/08/students-arent-made-the-way-they-used-to-be.html">Students arent made the way they used to be</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20096','ara_ca_posign20096')"><span id="ara_ca_posign20096"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/06' title='Jun 2009'>Jun 2009</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20096" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/06/intelligentsia-and-what-i-hope-to-see-in-more-cafes.html">Intelligentsia, and what I hope to see in more cafe's</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20095','ara_ca_posign20095')"><span id="ara_ca_posign20095"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/05' title='May 2009'>May 2009</a>&nbsp;(4)</li>
+
+			<li>
+		<ul id="ara_ca_po20095" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/05/domain-specific-knowledge-in-music-mainstream-hip-hops-problem.html">Domain specific knowledge in Music. Mainstream hip-hop's problem.</a></li>
+			<li><a href="http://blog.njoubert.com/2009/05/brutesoft-comes-out-of-stealth.html">BruteSoft comes out of stealth!</a></li>
+			<li><a href="http://blog.njoubert.com/2009/05/python-is-wrong.html">Python is Wrong</a></li>
+			<li><a href="http://blog.njoubert.com/2009/05/the-10x-programmers-secret-domain-specific-knowledge.html">The 10x programmer's secret - Domain Specific Knowledge</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20094','ara_ca_posign20094')"><span id="ara_ca_posign20094"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/04' title='Apr 2009'>Apr 2009</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20094" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/04/repair-rewiring-your-sennheiser-hd-280-pro.html">Repair: Rewiring your Sennheiser HD 280 Pro</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20092','ara_ca_posign20092')"><span id="ara_ca_posign20092"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/02' title='Feb 2009'>Feb 2009</a>&nbsp;(4)</li>
+
+			<li>
+		<ul id="ara_ca_po20092" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/02/real-time-raytracing-success.html">Real Time Raytracing Success!</a></li>
+			<li><a href="http://blog.njoubert.com/2009/02/monitors-monitors-monitors-whats-with-169-and-shiny-plastic-bevels.html">Monitors monitors monitors! What's with 16:9 and shiny plastic bevels?</a></li>
+			<li><a href="http://blog.njoubert.com/2009/02/dawn-on-a-rainy-day-hackathon-09.html">Dawn on a Rainy Day - Hackathon 09</a></li>
+			<li><a href="http://blog.njoubert.com/2009/02/i-got-into-stanford-now-what.html">I got into Stanford, now what?</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20091','ara_ca_posign20091')"><span id="ara_ca_posign20091"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2009/01' title='Jan 2009'>Jan 2009</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20091" style="display:none">
+			<li><a href="http://blog.njoubert.com/2009/01/valve-complete-pack.html">Valve Complete Pack</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2008','ara_ca_mosign2008')"><span id="ara_ca_mosign2008"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2008">2008</a>&nbsp;(19)
+		<ul id="ara_ca_mo2008" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200812','ara_ca_posign200812')"><span id="ara_ca_posign200812"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/12' title='Dec 2008'>Dec 2008</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po200812" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/12/hackintosh-installing-os-x-on-my-pc-triple-boot-osx-ubuntu-and-windows-xp.html">Hackintosh: Installing OS X on my PC - Triple boot osx, ubuntu and windows xp</a></li>
+			<li><a href="http://blog.njoubert.com/2008/12/the-ending-of-an-era.html">The Ending of an Era.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20088','ara_ca_posign20088')"><span id="ara_ca_posign20088"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/08' title='Aug 2008'>Aug 2008</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20088" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/08/skydiving.html">Skydiving</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20087','ara_ca_posign20087')"><span id="ara_ca_posign20087"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/07' title='Jul 2008'>Jul 2008</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20087" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/07/being-the-boss-an-incomplete-opinion-on-managing-teams-from-the-intern-in-the-group.html">Being the Boss - an incomplete opinion on managing teams from the intern in the group.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20086','ara_ca_posign20086')"><span id="ara_ca_posign20086"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/06' title='Jun 2008'>Jun 2008</a>&nbsp;(1)</li>
+
+			<li>
+		<ul id="ara_ca_po20086" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/06/installing-eclipse-on-fedora-core-5-with-its-own-java-jre.html">Installing Eclipse on Fedora Core 5 (with its own Java JRE)</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20085','ara_ca_posign20085')"><span id="ara_ca_posign20085"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/05' title='May 2008'>May 2008</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20085" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/05/rockband-with-computer-vision.html">Rockband - with Computer Vision</a></li>
+			<li><a href="http://blog.njoubert.com/2008/05/building-opencv-in-ubuntu-8-04.html">Building OpenCV in Ubuntu 8.04</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20084','ara_ca_posign20084')"><span id="ara_ca_posign20084"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/04' title='Apr 2008'>Apr 2008</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20084" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/04/chi-2008-yay-we-made-it-in.html">CHI 2008: Yay we made it in!</a></li>
+			<li><a href="http://blog.njoubert.com/2008/04/dslextreme-my-choice-as-isp.html">DSLExtreme - my choice as ISP</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20083','ara_ca_posign20083')"><span id="ara_ca_posign20083"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/03' title='Mar 2008'>Mar 2008</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20083" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/03/the-tree-sitters-of-berkeley.html">The Tree Sitters of Berkeley</a></li>
+			<li><a href="http://blog.njoubert.com/2008/03/how-to-get-your-roommates-to-clean-up-the-apartment-or-writing-sms-gateway-apps.html">How to get your roommates to clean up the apartment, or, writing SMS Gateway Apps</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20082','ara_ca_posign20082')"><span id="ara_ca_posign20082"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/02' title='Feb 2008'>Feb 2008</a>&nbsp;(5)</li>
+
+			<li>
+		<ul id="ara_ca_po20082" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/02/wanna-reset-your-mysql-root-password-on-ubuntu.html">Wanna reset your MySQL root password on Ubuntu?</a></li>
+			<li><a href="http://blog.njoubert.com/2008/02/svn-converting-from-berkeleydb-to-fsfs.html">SVN: Converting from BerkeleyDB to FSFS</a></li>
+			<li><a href="http://blog.njoubert.com/2008/02/shaders.html">Shaders!</a></li>
+			<li><a href="http://blog.njoubert.com/2008/02/wiring-the-apartment-setting-up-dhcp-and-routing-on-ubuntu.html">Wiring the apartment - setting up DHCP and Routing on Ubuntu</a></li>
+			<li><a href="http://blog.njoubert.com/2008/02/why-i-took-my-shuttle-xpc-back-linux-on-the-shuttle-xpc-sg33g5.html">Why I took my Shuttle XPC Back - Linux on the Shuttle XPC SG33G5</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20081','ara_ca_posign20081')"><span id="ara_ca_posign20081"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2008/01' title='Jan 2008'>Jan 2008</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po20081" style="display:none">
+			<li><a href="http://blog.njoubert.com/2008/01/ubuntu-on-shuttle-xpc-sg33g5-intel-g33-chipset.html">Ubuntu on Shuttle XPC SG33G5 (Intel G33 chipset)</a></li>
+			<li><a href="http://blog.njoubert.com/2008/01/asus-eeepc-first-looks.html">ASUS eeePC - First Looks</a></li>
+			<li><a href="http://blog.njoubert.com/2008/01/topgun-according-to-tarantino.html">&quot;Topgun according to Tarantino&quot;</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2007','ara_ca_mosign2007')"><span id="ara_ca_mosign2007"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2007">2007</a>&nbsp;(45)
+		<ul id="ara_ca_mo2007" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200712','ara_ca_posign200712')"><span id="ara_ca_posign200712"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/12' title='Dec 2007'>Dec 2007</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po200712" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/12/nowtune-com-now-with-hotlinking-playlists.html">NowTune.com now with hotlinking playlists</a></li>
+			<li><a href="http://blog.njoubert.com/2007/12/copywrite-in-the-music-industry.html">Copywrite in the Music Industry</a></li>
+			<li><a href="http://blog.njoubert.com/2007/12/nowtune-com-live.html">NowTune.com live</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200711','ara_ca_posign200711')"><span id="ara_ca_posign200711"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/11' title='Nov 2007'>Nov 2007</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po200711" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/11/music.html">Music</a></li>
+			<li><a href="http://blog.njoubert.com/2007/11/husky-rescue.html">Husky Rescue</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200710','ara_ca_posign200710')"><span id="ara_ca_posign200710"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/10' title='Oct 2007'>Oct 2007</a>&nbsp;(4)</li>
+
+			<li>
+		<ul id="ara_ca_po200710" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/10/this-semesters-rough.html">This Semester's Rough!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/10/plush-jet-life.html">Plush - Jet Life</a></li>
+			<li><a href="http://blog.njoubert.com/2007/10/yum-yellow-dog-updater-and-mysql-5.html">YUM (Yellow Dog Updater) and MySQL 5</a></li>
+			<li><a href="http://blog.njoubert.com/2007/10/configuring-client-routing-tables-through-dhcp.html">Configuring client routing tables through DHCP</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20079','ara_ca_posign20079')"><span id="ara_ca_posign20079"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/09' title='Sep 2007'>Sep 2007</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po20079" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/09/theres-always-time-for-a-little-laugh.html">There's always time for a little laugh...</a></li>
+			<li><a href="http://blog.njoubert.com/2007/09/conversations-in-the-astro-lab.html">Conversations in the Astro lab</a></li>
+			<li><a href="http://blog.njoubert.com/2007/09/the-death-of-lona-antoniades-the-death-of-an-angel.html">The Death of Lona Antoniades. The Death of an Angel</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20078','ara_ca_posign20078')"><span id="ara_ca_posign20078"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/08' title='Aug 2007'>Aug 2007</a>&nbsp;(10)</li>
+
+			<li>
+		<ul id="ara_ca_po20078" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/08/first-test-of-arduino-with-max7219-led-driver-and-ltp2657-led-matrix.html">First Test of Arduino with Max7219 LED Driver and LTP2657 LED Matrix</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/strange-music-videos-and-youtube-now-with-inline-ads.html">Strange Music videos, and Youtube - now with Inline Ads!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/kill-9-rap.html">Kill -9 rap</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/avenue-q-the-internet-is-for-porn.html">Avenue Q - The Internet is for Porn</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/lets-connect-many-many-leds-to-arduino.html">Let's connect many many LEDs to Arduino</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/the-first-arduino-project-tinyvu.html">The First Arduino Project: TinyVU</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/first-experiences-with-arduino-and-setup-instructions.html">First Experiences with Arduino (and setup instructions!)</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/how-propaganda-works.html">How Propaganda Works</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/what-barry-says-the-american-war-machine.html">What Barry Says: The American War Machine</a></li>
+			<li><a href="http://blog.njoubert.com/2007/08/electric-daisy-carnival-in-retrospect.html">Electric Daisy Carnival - In retrospect</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20077','ara_ca_posign20077')"><span id="ara_ca_posign20077"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/07' title='Jul 2007'>Jul 2007</a>&nbsp;(8)</li>
+
+			<li>
+		<ul id="ara_ca_po20077" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/07/paprika.html">Paprika</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/wait-you-thought-the-mpaa-does-not-concone-movie-copying-but-they-do-it-themselves-dude.html">Wait... you thought the MPAA does NOT concone movie copying? But they do it themselves, dude</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/an-open-letter-to-john-soat.html">An open letter to John Soat.</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/setting-up-eclipse-for-red5-development.html">Setting up Eclipse for Red5 Development</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/fireeagle-triptracker-where-i-am-and-what-pictures-im-taking.html">FireEagle &amp; TripTracker - Where I am and What Pictures i'm taking!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/this-is-a-sweet-flickrstream-widget.html">This is a sweet flickrstream widget!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/pogramming-tip-of-the-day.html">Pogramming tip of the day</a></li>
+			<li><a href="http://blog.njoubert.com/2007/07/holocaust-survivor-leaving-the-us.html">Holocaust survivor leaving the US</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20076','ara_ca_posign20076')"><span id="ara_ca_posign20076"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/06' title='Jun 2007'>Jun 2007</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po20076" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/06/edc-baby.html">EDC Baby!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/06/the-hawk-is-back.html">The 'Hawk is Back</a></li>
+			<li><a href="http://blog.njoubert.com/2007/06/fon-coms-fontenna-a-disappointment-although-other-factors-might-be-to-blame.html">Fon.com's Fontenna a disappointment, although other factors might be to blame.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20075','ara_ca_posign20075')"><span id="ara_ca_posign20075"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/05' title='May 2007'>May 2007</a>&nbsp;(3)</li>
+
+			<li>
+		<ul id="ara_ca_po20075" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/05/the-semester-in-retrospect.html">The Semester in Retrospect</a></li>
+			<li><a href="http://blog.njoubert.com/2007/05/handy-tip-adding-custom-entries-emacs-to-right-click-menu-in-windows.html">Handy Tip: Adding custom entries (Emacs!) to right click menu in Windows</a></li>
+			<li><a href="http://blog.njoubert.com/2007/05/youre-always-one-step-away-from-alienating-your-users.html">You're always one step away from alienating your users...</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20073','ara_ca_posign20073')"><span id="ara_ca_posign20073"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/03' title='Mar 2007'>Mar 2007</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20073" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/03/apple-will-you-really-drop-drm.html">Apple - Will you really drop DRM?</a></li>
+			<li><a href="http://blog.njoubert.com/2007/03/radioastronomy-website-up.html">Radioastronomy Website up!</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20072','ara_ca_posign20072')"><span id="ara_ca_posign20072"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/02' title='Feb 2007'>Feb 2007</a>&nbsp;(2)</li>
+
+			<li>
+		<ul id="ara_ca_po20072" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/02/getting-cvs-up-and-running-at-berkeley-eecs.html">Getting CVS up and running at Berkeley EECS.</a></li>
+			<li><a href="http://blog.njoubert.com/2007/02/yahoo-astrophysics-computer-science-research-too-much-to-do-too-little-time.html">Yahoo, Astrophysics, Computer Science, Research - Too much to do, too little time!</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20071','ara_ca_posign20071')"><span id="ara_ca_posign20071"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2007/01' title='Jan 2007'>Jan 2007</a>&nbsp;(5)</li>
+
+			<li>
+		<ul id="ara_ca_po20071" style="display:none">
+			<li><a href="http://blog.njoubert.com/2007/01/lets-pop-the-champane-rails-1-2-has-arrived.html">Lets pop the champane, Rails 1.2 has arrived!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/01/the-first-two-days-just-getting-into-it.html">The First Two Days - just getting into it.</a></li>
+			<li><a href="http://blog.njoubert.com/2007/01/reddit-is-awesome-flaming-lips-fusion-energy-and-no-pants-combine.html">Reddit is Awesome - Flaming Lips, Fusion Energy and No Pants combine!</a></li>
+			<li><a href="http://blog.njoubert.com/2007/01/art-meets-technology-smart-focusing-creates-beautiful-pictures.html">Art meets Technology: Smart focusing creates beautiful pictures</a></li>
+			<li><a href="http://blog.njoubert.com/2007/01/snowboard-extreme.html">Snowboard Extreme!</a></li>
+		</ul></li>
+		</ul>
+	</li>
+	<li>				<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_mo2006','ara_ca_mosign2006')"><span id="ara_ca_mosign2006"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href="http://blog.njoubert.com/2006">2006</a>&nbsp;(48)
+		<ul id="ara_ca_mo2006" style="display:none">	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200612','ara_ca_posign200612')"><span id="ara_ca_posign200612"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/12' title='Dec 2006'>Dec 2006</a>&nbsp;(6)</li>
+
+			<li>
+		<ul id="ara_ca_po200612" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/12/wine-byebye-windows.html">WINE - ByeBye Windows</a></li>
+			<li><a href="http://blog.njoubert.com/2006/12/end-of-the-free-world.html">End of the Free World?</a></li>
+			<li><a href="http://blog.njoubert.com/2006/12/tis-the-season-to-be-jolly-fa-la-la-la-la-whack-whack-whack.html">Tis the season to be jolly, fa la la la la *whack whack whack*</a></li>
+			<li><a href="http://blog.njoubert.com/2006/12/tag-clouds-clouding-your-view.html">Tag Clouds Clouding your view?</a></li>
+			<li><a href="http://blog.njoubert.com/2006/12/perceptions-of-america-and-notions-of-its-fall.html">Perceptions of America and Notions of its fall</a></li>
+			<li><a href="http://blog.njoubert.com/2006/12/the-beryl-project-productivity-erasor-or-taking-linux-desktops-to-the-next-level.html">The Beryl Project - Productivity erasor or taking Linux desktops to the next level?</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200611','ara_ca_posign200611')"><span id="ara_ca_posign200611"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/11' title='Nov 2006'>Nov 2006</a>&nbsp;(8)</li>
+
+			<li>
+		<ul id="ara_ca_po200611" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/11/woops-slip-bonk.html">woops... *slip*... BONK!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/jumping.html">Jumping!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/its-time-to-ride-again-new-world-disorder-7.html">Its time to ride again: New World Disorder 7</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/leonid-meteor-shower.html">Leonid Meteor Shower!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/jy-was-nog-nooit-in-lang-traat-as-dit-reen-nie.html">Jy was nog nooit in Lang traat as dit reen nie</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/police-brutality-at-the-university-of-california.html">Police Brutality at the University of California???</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/hackers-and-ethics.html">Hackers and Ethics</a></li>
+			<li><a href="http://blog.njoubert.com/2006/11/yahoo-university-hack-day-success.html">Yahoo! University Hack Day Success!!!</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po200610','ara_ca_posign200610')"><span id="ara_ca_posign200610"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/10' title='Oct 2006'>Oct 2006</a>&nbsp;(4)</li>
+
+			<li>
+		<ul id="ara_ca_po200610" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/10/criticism-and-thecafetable.html">Criticism and TheCafeTable</a></li>
+			<li><a href="http://blog.njoubert.com/2006/10/san-francisco-coffe-during-summertime.html">San Francisco Coffe during summertime.</a></li>
+			<li><a href="http://blog.njoubert.com/2006/10/knoppix-linux-coming-to-a-usb-drive-near-you.html">Knoppix LINUX, coming to a USB drive near you!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/10/berkeley-nobel-prize.html">Berkeley Nobel Prize!</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20069','ara_ca_posign20069')"><span id="ara_ca_posign20069"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/09' title='Sep 2006'>Sep 2006</a>&nbsp;(13)</li>
+
+			<li>
+		<ul id="ara_ca_po20069" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-winners-and-photos.html">Yahoo! Hack Day: Winners and Photos!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-blogging-in-motion-saturday-608-pm-93006.html">Yahoo! Hack Day: blogging in motion Saturday 6:08 pm 9/30/06</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-presentations.html">Yahoo! Hack Day: Presentations!!!!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-i-have-my-0-85-seconds-of-fame-on-cbs5.html">Yahoo! Hack Day: I have my 0.85 seconds of fame on CBS5!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-amazing-beck-video.html">Yahoo! Hack Day: Amazing Beck video!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-zonetag-photo-friday-907-pm-92906-sunnyvale-california.html">Yahoo! Hack Day: ZoneTag Photo Friday 9:07 pm 9/29/06 Sunnyvale, California</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-news-featuring-hack-day-and-beck-rocks-the-house.html">Yahoo! Hack Day: News Featuring Hack Day and BECK ROCKS THE HOUSE</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-10-things-you-need-to-know-to-be-ready-to-hack-in-the-ecosystem.html">Yahoo! Hack Day: 10 Things You Need to Know To Be Ready to Hack in the Ecosystem</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-email-web-service.html">Yahoo! Hack Day: Email Web Service</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/yahoo-hack-day-exceptional-performance.html">Yahoo! Hack Day: Exceptional Performance</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/silicon-graphics-in-south-africa-circa-1996.html">Silicon Graphics in South Africa... circa 1996</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/dj-shadow-with-chris-james-and-lateef-the-truthspeaker-opening-for-massive-attack-at-the-greek-in-berkeley.html">DJ Shadow with Chris James and Lateef the Truthspeaker opening for Massive Attack at the Greek in Berkeley...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/09/calso-is-over-at-last-and-damn-im-happy-i-finally-moved-on.html">CalSO is OVER AT LAST! And damn im happy i finally moved on.</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20067','ara_ca_posign20067')"><span id="ara_ca_posign20067"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/07' title='Jul 2006'>Jul 2006</a>&nbsp;(4)</li>
+
+			<li>
+		<ul id="ara_ca_po20067" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/07/a-series-of-unforgettable-moments.html">A series of unforgettable moments</a></li>
+			<li><a href="http://blog.njoubert.com/2006/07/where-did-it-go.html">... where did it go?</a></li>
+			<li><a href="http://blog.njoubert.com/2006/07/untitled.html">untitled</a></li>
+			<li><a href="http://blog.njoubert.com/2006/07/last-3-days-of-calso.html">Last 3 days of CalSO...</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20066','ara_ca_posign20066')"><span id="ara_ca_posign20066"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/06' title='Jun 2006'>Jun 2006</a>&nbsp;(6)</li>
+
+			<li>
+		<ul id="ara_ca_po20066" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/06/francie-was-wrong.html">Francie was wrong...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/06/the-horrors-of-racism.html">The Horrors of Racism</a></li>
+			<li><a href="http://blog.njoubert.com/2006/06/first-parent-program.html">First Parent Program!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/06/today-was-a-big-day.html">Today was a Big Day</a></li>
+			<li><a href="http://blog.njoubert.com/2006/06/the-night-before.html">The Night Before...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/06/what-does-hitler-have-to-do-with-universities.html">What does Hitler have to do with Universities?</a></li>
+		</ul></li>	
+			<li>					<a style="cursor:pointer;" onclick="collapsiblearchive_toggle('ara_ca_po20065','ara_ca_posign20065')"><span id="ara_ca_posign20065"><img src="http://blog.njoubert.com/wp-content/plugins/collapsible-archive-widget/plus.png" alt="" />&nbsp;</span></a><a href='http://blog.njoubert.com/2006/05' title='May 2006'>May 2006</a>&nbsp;(7)</li>
+
+			<li>
+		<ul id="ara_ca_po20065" style="display:none">
+			<li><a href="http://blog.njoubert.com/2006/05/the-dangers-of-exposure-of-identity.html">The Dangers of Exposure of Identity</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/diversity-training-first-of-maaannyyy.html">Diversity Training (First of MAAANNYYY)!</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/bleag.html">bleag...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/tired.html">Tired...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/time-to-get-real-yes.html">Time to get real, yes?</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/ive-never-been-in-class-for-so-long.html">I've never been in class for so long...</a></li>
+			<li><a href="http://blog.njoubert.com/2006/05/the-day-before-summer-has-started-yet-were-all-still-in-berkeley.html">The day before... Summer has started, yet we're all still in Berkeley</a></li>
+		</ul></li>
+		</ul>
+	</li>
+</ul></li>
+
+	<!-- Collapsible Archive Widget ends here -->
+	<!-- Time taken for the Collapsible Archive Widget plugin to complete loading is 0.231 seconds -->
+<li id="meta-3" class="widget widget_meta"><h2 class="widgettitle">Meta</h2>
+			<ul>
+						<li><a href="http://blog.njoubert.com/wp-login.php">Log in</a></li>
+			<li><a href="http://blog.njoubert.com/feed" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://blog.njoubert.com/comments/feed" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>
+		</ul>
+	</div>
+
+</div> <!-- wrapper -->
+<div id="footer">
+	<a href="http://blog.njoubert.com/feed">Entries (RSS)</a> and <a href="http://blog.njoubert.com/comments/feed">Comments (RSS)</a>. Valid <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer"><abbr title="Cascading Style Sheets">CSS</abbr></a>.<br />
+	Powered by <a href="http://wordpress.org/" title="Powered by WordPress.">WordPress</a> and <a href="http://srinig.com/wordpress/themes/fluid-blue/">Fluid Blue theme</a>.<br />
+	<!-- 218 queries. 0.371 seconds. -->
+	</div>
+</div> <!-- page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4525725-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

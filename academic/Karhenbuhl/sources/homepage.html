@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>Philipp Kr&auml;henb&uuml;hl</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/> 
+
+</head>
+<body>
+<div style="text-align: center" id="title">
+	<h1>Welcome</h1>
+</div>
+
+<ul id="Navigation">
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#research">Research</a></li>
+	<li><a href="#teaching">Teaching</a></li>
+	<li><a href="#publications">Publications</a></li>
+</ul>
+<div id="Inhalt">
+	<a name="contact"/><h1>Contact</h1>
+	<table>
+		<tr><th>Philipp Kr&auml;henb&uuml;hl</th><td ROWSPAN=9 width="10%"><img src="pic_small.jpg"/></td></tr>
+		<tr><td>353 Serra Mall</td></tr>
+		<tr><td>Room 286</td></tr>
+		<tr><td>Stanford CA 94305-9025</td></tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr><td>email: philkr(at)stanford.edu</td></tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr><td><a href="cv_philipp_kraehenbuehl.pdf">curriculum vitae</a></td></tr>
+	</table>
+	<a name="research"/><h1>Research</h1>
+	<p>
+		I am a Ph.D. candidate in the <a href="http://cs.stanford.edu">Department of Computer Science</a> at <a href="http://www.stanford.edu">Stanford University</a>.
+		I am working with <a href="http://graphics.stanford.edu/~vladlen/">Vladlen Koltun</a> and the <a href="http://vw.stanford.edu">Stanford Virtual Worlds Group</a>.
+		My research interests are <a href="http://graphics.stanford.edu">computer graphics</a> and lately computer vision and machine learning.
+	</p>
+	<p>
+		Previous research:
+		<ul>
+			<li>Video Retargeting at ETH Zurich, with Prof. Markus Gross</li>
+			<li><a href="http://www.fold.it">Fold.it</a> at University of Washington, with Prof. Zoran Popovic and Adrien Treuille</li>
+			<li>&ldquo;SWPS3-fast multi-threaded vectorized Smith-Waterman for IBM Cell/B.E.&ldquo; at ETH Zurich, with Prof. Gaston Gonnet and Christophe Dessimoz</li>
+			<li><a href="http://eiffelmedia.origo.ethz.ch/">EiffelMedia</a> at ETH Zurich, with Prof. Bertrand Meyer and Till Bay</li>
+		</ul>
+	</p>
+	<a name="teaching"/><h1>Teaching</h1>
+	<p>
+		<ul>
+			<li><a href="http://www.cs.washington.edu/education/courses/cse524/08wi/">CSE 524 - Parallel Algorithms</a> with Prof. Larry Snyder</li>
+			<li><a href="http://se.inf.ethz.ch/teaching/ws2006/0001/english_index.html">Introduction to Programming</a> with Prof. Bertrand Meyer</li>
+		</ul>
+	</p>
+	<a name="publications"/><h1>Publications</h1>
+
+	<table id="publications">
+		<tr>
+			<td align="center">
+				<a href="imgs/efficient-nl.png"><img border=0 src="imgs/efficient-nl_thmb.png"/></a>
+			</td>
+			<td>
+				Philipp Kr&auml;henb&uuml;hl and Vladlen Koltun<br />
+				<b>Efficient Nonlocal regularization for Optical Flow</b><br/>
+				ECCV 2012<br />
+				[<a href="papers/efficient-nl.pdf">PDF</a>][<a href="papers/efficient-nl-sup.pdf">Supplementary material</a>]
+				<br />
+				Dense optical flow estimation in images is a challenging problem because the algorithm must coordinate the
+				estimated motion across large regions in the image, while avoiding inappropriate smoothing over motion
+				boundaries. Recent works have advocated for the use of nonlocal regularization to model long-range correlations
+				in the flow. However, incorporating nonlocal regularization into an energy optimization framework is challenging
+				due to the large number of pairwise penalty terms. Existing techniques either substitute intermediate filtering
+				of the flow field for direct optimization of the nonlocal objective, or suffer substantial performance penalties
+				when the range of the regularizer increases. In this paper, we describe an optimization algorithm that efficiently
+				handles a general type of nonlocal regularization objectives for optical flow estimation. The computational
+				complexity of the algorithm is independent of the range of the regularizer. We show that nonlocal regularization
+				improves estimation accuracy at longer ranges than previously reported, and is complementary to intermediate
+				filtering of the flow field. Our algorithm is simple and is compatible with many optical flow models.
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="imgs/sf_teaser.png"><img border=0 src="imgs/sf_teaser_thmb.png"/></a>
+			</td>
+			<td>
+				Federico Perazzi, Philipp Kr&auml;henb&uuml;hl, Yael Pritch and Alexander Hornung<br />
+				<b>Saliency Filters: Contrast Based Filtering for Salient Region Detection</b><br/>
+				CVPR 2012<br />
+				[<a href="papers/saliency_filters_cvpr_2012.pdf">PDF</a>] [<a href="http://www.fedeperazzi.com/saliency_filters/">Project Page</a>]  [<a href="code/saliencyfilters.zip">Code</a>] 
+				<br />
+				Saliency estimation has become a valuable tool in image processing. Yet, existing approaches exhibit considerable variation in methodology,
+				and it is often difficult to attribute improvements in result quality to specific algorithm properties. In this paper we reconsider some of
+				the design choices of previous methods and propose a conceptually clear and intuitive algorithm for contrast-based saliency estimation. Our
+				algorithm consists of four basic steps. First, our method decomposes a given image into compact, perceptually homogeneous elements that
+				abstract unnecessary detail. Based on this abstraction we compute two measures of contrast that rate the uniqueness and the spatial distribution
+				of these elements. From the element contrast we then derive a saliency measure that produces a pixel-accurate saliency map which uniformly covers
+				the objects of interest and consistently separates fore- and background. We show that the complete contrast and saliency estimation can be
+				formulated in a unified way using high- dimensional Gaussian filters. This contributes to the conceptual simplicity of our method and lends
+				itself to a highly efficient implementation with linear complexity. In a detailed experimental evaluation we analyze the contribution of each
+				individual feature and show that our method outperforms all state-of-the-art approaches.
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="imgs/densecrf.png"><img border=0 src="imgs/densecrf_thmb.png"/></a>
+			</td>
+			<td>
+				Philipp Kr&auml;henb&uuml;hl and Vladlen Koltun<br />
+				<b>Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</b><br/>
+				NIPS 2011 (oral, best student paper)<br />
+				[<a href="http://graphics.stanford.edu/projects/densecrf/densecrf.pdf">PDF</a>] [<a href="http://graphics.stanford.edu/projects/densecrf/">Project Page with code</a>] 
+				<br />
+				Most state-of-the-art techniques for multi-class image segmentation and labeling use conditional random fields defined over pixels or
+				image regions. While region-level models often feature dense pairwise connectivity, pixel-level models are considerably larger and have
+				only permitted sparse graph structures. In this paper, we consider fully connected CRF models defined on the complete set of pixels in
+				an image. The resulting graphs have billions of edges, making traditional inference algorithms impractical. Our main contribution is a
+				highly efficient approximate inference algorithm for fully connected CRF models in which the pairwise edge potentials are defined by
+				linear combinations of Gaussian kernels. Our algorithm can approximately minimize fully connected models on tens of thousands of variables
+				in a fraction of a second. Quantitative and qualitative results on the MSRC-21 and PASCAL VOC 2010 datasets demonstrate that full pairwise
+				connectivity at the pixel level produces significantly more accurate segmentations and pixel-level label assignments.
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<img border=0 src="imgs/bodylanguage2010.png"/>
+			</td>
+			<td>
+				Sergey Levine, Philipp Kr&auml;henb&uuml;hl, Sebastian Thrun, Vladlen Koltun<br />
+				<b>Gesture Controllers. </b><br/>
+				Proceedings of ACM SIGGRAPH 2010 (Los Angeles, July 25-29, 2010), ACM Transactions on Graphics<br />
+				[<a href="papers/bodylanguagesg2010.pdf">PDF</a>] [<a href="videos/bodylanguage2010.mov">Video</a>] 
+				<br />
+				Gesture controllers learn optimal policies to generate smooth, compelling gesture animations from speech and
+				other optional inputs. The accompanying video presents examples of various controllers, including controllers
+				that recognize key words, admit manual manipulation of gesture style, and even animate a character with a
+				non-humanoid morphology.
+			</td>
+		</tr>
+		<tr class="sep"><td></td><td></td></tr>
+			<td align="center">
+				<a href="imgs/Kra09_1.png"><img border=0 src="imgs/Kra09_1_thmb.png"/></a>
+			</td>
+			<td>
+				Philipp Kr&auml;henb&uuml;hl, Manuel Lang, Alexander Hornung and Markus Gross<br />
+				<b>Retargeting of Streaming Video</b><br/>
+				Proceedings of ACM SIGGRAPH Asia (Yokohama, Japan, December 16-19, 2009), ACM Transactions on Graphics<br />
+				[<a href="papers/Kra09.pdf">PDF</a>] [<a href="videos/Kra09.mov">Video</a>] 
+				<br />
+				We present a novel, integrated system for content-aware video retargeting.
+				A simple and interactive framework combines key frame based constraint editing
+				with numerous automatic algorithms for video analysis. This combination gives
+				content producers high level control of the retargeting process. The central
+				component of our framework is a non-uniform, pixel-accurate warp to the target
+				resolution which considers automatic as well as interactively defined features.
+				Automatic features comprise video saliency, edge preservation at the pixel
+				resolution, and  scene cut detection  to enforce bilateral temporal coherence.
+				Additional high level constraints can be added by the producer to guarantee a
+				consistent scene composition across arbitrary output formats. For high quality
+				video display we adopted a 2D version of EWA splatting eliminating aliasing
+				artifacts known from previous work. Our method seamlessly integrates into
+				postproduction and computes the reformatting in realtime. This allows us to
+				retarget annotated video streams at a high quality to arbitary aspect ratios
+				while retaining the intended cinematographic scene composition. For evaluation
+				we conducted a user study which revealed a strong viewer preference for our method.
+			</td>
+		</tr>
+		<tr class="sep"><td></td><td></td></tr>
+		<tr>
+			<td align="center">
+				<a href="imgs/bachelor_thesis.png"><img border=0 src="imgs/bachelor_thesis_thmb.png"/></a>
+			</td>
+			<td>
+				Philipp Kr&auml;henb&uuml;hl, Manuel Lang and Markus Gross<br />
+				<b>Art Directable Retargeting for Streaming Video</b><br/>
+				Bachelor Thesis, ETH Zurich, February 2009<br />
+				[<a href="papers/bachelor_thesis.pdf">PDF</a>]
+				<br />
+				We present a novel framework for content-aware and art-directable video retargeting. A simple
+				and interactive workflow combines key frame based constraint editing with numerous automatic
+				algorithms for video analysis. This combination gives content producers high level control of
+				the retargeting process. The central component of our framework is a non-uniform, pixelaccurate
+				warp to the target resolution which considers automatic as well as interactively defined
+				features. Automatic features comprise video saliency, edge preservation at the pixel resolution,
+				and a scene cut detection to enforce bilateral temporal coherence. Additional high level constraints
+				concerning scene composition can be added by the producer. For high quality video
+				display we adopted a 2D version of EWA splatting eliminating aliasing artifacts known from
+				previous methods. Our method seamlessly integrates into postproduction and computes the reformatting
+				in realtime. This allows us to retarget annotated video streams to arbitary devices
+				while retaining the intended cinematographic scene composition.
+			</td>
+		</tr>
+<!--		<tr class="sep"><td></td><td></td></tr>
+		<tr>
+			<td>
+				
+			</td>
+			<td>
+				Adam Szalkowski, Christian Ledergerber, Philipp Kr&auml;henb&uuml;hl  and Christophe Dessimoz<br />
+				<b>SWPS3 - fast multi-threaded vectorized Smith-Waterman for IBM Cell/B.E. and x86/SSE2</b><br/>
+				BMC Research Notes 2008, 1:107<br />
+				[<a href="http://www.biomedcentral.com/1756-0500/1/107">Project</a>]<br />
+				We present swps3, a vectorized implementation of the Smith-Waterman local alignment algorithm optimized for both the Cell/BE and x86 architectures. The paper describes swps3 and compares its performances with several other implementations.<br />
+				Our benchmarking results show that swps3 is currently the fastest implementation of a vectorized Smith-Waterman on the Cell/BE, outperforming the only other known implementation by a factor of at least 4: on a Playstation 3, it achieves up to 8.0 billion cell-updates per second (GCUPS). Using the SSE2 instruction set, a quad-core Intel Pentium can reach 15.7 GCUPS. We also show that swps3 on this CPU is faster than a recent GPU implementation. Finally, we note that under some circumstances, alignments are computed at roughly the same speed as BLAST, a heuristic method.<br />
+				The Cell/BE can be a powerful platform to align biological sequences. Besides, the performance gap between exact and heuristic methods has almost disappeared, especially for long protein sequences.<br />
+			</td>
+		</tr>-->
+	</table>
+	<a class="name"/><h1>About my last name</h1>
+	<p>
+		I'm well aware that my last name is not the easiest one to write or cite (and I saw it butchered a bunch of times over the years).
+		So to make things easier just pick your document type below and copy the string:
+		</p>
+			<div class="source">
+				Regular text
+				<div class="code"> Kr&auml;henb&uuml;hl </div>
+			</div>
+			<div class="source">
+				Latex &amp; Bibtex
+				<div class="code"> Kr\"ahenb\"uhl </div>
+			</div>
+			<div class="source">
+				HTML
+				<div class="code"> Kr&amp;auml;henb&amp;uuml;hl </div>
+			</div>
+		<p>
+		If all the above fail, just use "Kraehenbuehl".
+	</p>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* 
+  Knuth's colour scheme that is more pleasing to the eye. 
+
+  http://www-cs-faculty.stanford.edu/~knuth/diamondsigns/style.css
+*/
+
+body {background-color: #F8F4E7; color: #552800;}
+p { width: 800px; text-align: justify;}
+a.link {color:#0000A0;}
+a.visited {color: #A000A0;}
+a.active {color: #00A000;}
+img { padding: 10px; }
+img { border: 0px; }

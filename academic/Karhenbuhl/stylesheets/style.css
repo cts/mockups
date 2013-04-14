@@ -1,0 +1,226 @@
+
+body {
+    color: black;
+    background-color: white;
+    font-size: 100.01%;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 1em;
+    min-width: 60em;
+    /* Mindestbreite verhindert Umbruch und Anzeigefehler in modernen Browsern */
+  }
+
+/* TITLE section*/
+
+div#title {
+    background-color : #fed;
+    margin-bottom : 2em;
+  }
+
+
+div#title h1 {
+    font-size : 1.4em;
+    font-weight : bold;
+    margin-bottom : 0px;
+  }
+
+
+div#title h2 {
+    font-size : 1.2em;
+    font-weight : bold;
+    margin-bottom : 10px;
+  }
+
+
+div#title h3 {
+    font-size : 1em;
+    font-weight : bold;
+    margin-bottom : 0px;
+  }
+
+/* NAVIGATION section*/
+
+ul#Navigation {
+    font-size: 0.83em;
+    float: left;
+    width: 10em;
+    margin: 0 0 1.2em;
+    padding: 0.5em;
+    border: 1px dashed #a98;
+  }
+
+
+ul#Navigation li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+ul#Navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 0.2em;
+    font-weight: bold;
+  }
+
+
+ul#Navigation a:link {
+    color: black;
+    background-color: #edc;
+  }
+
+
+ul#Navigation a:visited {
+    color: black;
+    background-color: #edc;
+  }
+
+
+ul#Navigation a:hover {
+    color: black;
+    background-color: white;
+  }
+
+
+ul#Navigation a:active {
+    color: white;
+    background-color: #987;
+  }
+
+
+ul#Navigation ul {
+    margin: 0;
+    padding: 0;
+  }
+
+
+ul#Navigation ul a {
+    padding-left: 1.5em;
+  }
+
+/* INFO section*/
+
+div#Info {
+    font-size: 0.9em;
+    float: right;
+    width: 12em;
+    margin: 0 0 1.1em;
+    padding: 0;
+    background-color: #ffe;
+    border: 1px dashed #a98;
+  }
+
+
+div#Info h1 {
+    font-size : 1.2em;
+    text-align: center;
+    margin: 0.5em;
+  }
+
+
+div#Info h2 {
+    font-size: 1.1em;
+    margin: 0.5em;
+  }
+
+
+div#Info p {
+    font-size: 1em;
+    margin: 0.5em;
+  }
+
+
+/* INHALT section*/
+
+
+div#Inhalt {
+    margin: 0em 1em 1em 9.5em;
+    padding: 0 1em;
+    border: 1px dashed #a98;
+  }
+
+
+* html div#Inhalt {
+    height: 1em;
+    /* Workaround gegen den 3-Pixel-Bug des Internet Explorers */
+  }
+
+
+div#Inhalt h1 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #a98;
+    padding-top: 0.3em;
+    margin: 0.5em 0;
+  }
+
+
+div#Inhalt h2 {
+    font-size: 1.1em;
+    margin: 0.5em 0.2em;
+  }
+
+div#Inhalt table {
+    border: 1px dotted #a98;
+    width: 100%;
+    margin: 0.2em 0;
+  }
+div#Inhalt table#publications {
+    border-collapse:collapse;
+  }
+div#Inhalt table#publications td {
+    border-top: 1px dotted #a98;
+	padding: 1em;
+  }
+div#Inhalt table#publications tr.sep td {
+    border-top: 1px dotted #a98;
+	padding: 0.1em;
+  }
+div#Inhalt th {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #edc;
+    text-align: left;
+  }
+
+div#Inhalt p {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    margin: 0.2em 0.4em;
+  }
+
+div#Inhalt pre {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 1px dotted #a98;
+  }
+
+p#Fusszeile {
+    clear: both;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0.1em;
+    text-align: center;
+    background-color: #fed;
+    border: 1px solid silver;
+  }
+
+
+div.source {
+/*     background-color: #ffe; */
+    margin: 1em;
+    font-weight: bold;
+  }
+
+
+div.source div.code {
+/*     background-color: #ffe; */
+    border: 1px solid #a98;
+    font-family: monospace;
+    font-size: 1.3em;
+    font-weight: normal;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 13em;
+  }
+

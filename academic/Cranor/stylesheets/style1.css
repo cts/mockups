@@ -1,0 +1,211 @@
+/* $Id:$ */
+
+li {
+	font-size: 75%;
+	margin-bottom:0.2em;
+}
+
+BODY {	margin-left : 2em;
+	margin-right : 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: black;
+	background: white;
+#        font-size: 75%;
+}
+
+A:link	{ 
+#	color:#00AA44; 
+color:#FF0000;
+}
+A:hover {
+	background: #CCAAFF;
+} 
+A:visited	{ 
+	color:#660099;  
+}
+
+H1, H2, H3, H4 {
+   font-family: Verdana, "Trebuchet MS",arial,helvetica,sans-serif;
+}
+
+H1 {
+	font-size: 110%;
+	font-weight: bold;
+	color: #660099; 
+#	letter-spacing : .1em;
+}
+
+H2 {
+	font-size: 75%;
+	font-weight: bold;
+	color: #ffffff; 
+	background: #660099;
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	border: 0.1px solid none; 
+	letter-spacing : .1em;
+}
+
+H3 {
+	font-size: 75%;
+	font-weight: bold;
+	color: #660099; 
+	margin-left: 0.5em;
+}
+
+H4{
+	font-size: 75%;
+	font-weight: bold;
+	font-style: italic;
+	color: #660099; 
+	margin-left: 1em;
+}
+
+DL DT {
+	font-weight: bold;
+}
+
+DL {
+	margin-bottom: 0.2em;
+}
+
+TT, PRE {
+	font-family: "Lucida Console", "Courier New", "Courier", "Andale Mono";
+}
+
+P	{
+	font-size: 75%;
+	margin-left: 1em;
+	margin-right: 1em;
+	}
+
+P.flush {
+	margin-left: 0em;
+	margin-right: 0em;
+        font-size: 75%;
+}
+
+blockquote {
+font-size: 95%;
+}
+
+DD	{
+	margin-left: 3em;
+	margin-right: 1em;
+	font-size: 75%;
+        margin-bottom: 1em;
+	}
+
+DT 	{
+    	font-size: 75%;
+	margin-left: 1em;
+        color: #660099; 
+}
+
+TD.shaded {
+background-color: #ddbbff;
+}
+
+TD.navbar {
+font-size: 90%;
+#background-color: #ddbbff;
+border-top: #660099 5px solid;
+border-bottom: #660099 5px solid;
+padding: 2px;
+}
+
+P.topname {
+     font-family: "Trebuchet MS",Verdana,arial,helvetica,sans-serif;
+   	 font-size: 120%;
+         font-weight: bold;
+	 color: #660099;
+	 margin-left: 0em;
+}
+P.topURL {
+   	 font-size: 120%;
+#         font-family: "Trebuchet MS",Verdana,arial,helvetica,sans-serif;
+	 font-family: Verdana, "Lucida Console", "Courier New", "Courier",
+   	 "Andale Mono";
+         font-weight: bold;
+	 color: #660099;
+	 margin-right: 0em;
+}
+
+P.highlight {
+	background: #DDDDDD;
+	padding: 0.6em; 
+	border:none; 
+	font-weight: bold;
+        margin-left: 10%;
+	margin-right: 10%;
+} 
+
+P.sidebar {
+	font-size: 75%
+}
+
+P.sidebar3 {
+	font-size: 75%;
+        text-align: center
+}
+
+P.sidebar2 {
+	font-size: 75%;
+        text-align: right
+}
+
+P.sidebar4 {
+	font-size: 75%;
+	color:#ddbbFF;
+}
+
+P.sidebar4 A:visited {
+	   color:FFFFFF;
+}
+
+P.navbar {
+	background: #DDDDDD;
+	color:#660099; 
+	font-weight: bold;
+	padding: 0.2em;
+	text-align: center;
+	border: thin #660099 solid;
+	font-size: 75%;
+}
+P.navbar A:link {
+	text-decoration: none;
+}
+P.navbar A:visited {
+	text-decoration: none;
+}
+P.navbar A:hover {
+	background: #660099;
+	color:#AAAAAA; 
+	text-decoration: none;
+} 
+
+P.tiny {
+   	 font-size: 10%;
+}
+
+a.info{
+    position:relative; /*this is the key*/
+#    z-index:1; 
+#    background-color:#ccc;
+    color:#000;
+    font-size: 80%;
+    text-decoration:none}
+
+a.info span{display: none}
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:1em; left:0em; width:10em;
+    border:3px solid #99CCFF;
+    background-color:#99CCFF; color:#000; z-index:1;
+    text-align: left}
