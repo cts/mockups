@@ -1,15 +1,15 @@
 <html>
-<head>
-  <script src="http://treesheets.org/hotlink/cts.js"></script>
-  
-  <!-- CTS Theme: These two links apply the theme -->
-  <script type="text/cts"  src="Cranor/treesheets/cranor.cts"></script>
-  <link   type="text/css" href="Cranor/stylesheets/style1.css" rel="stylesheet" />
-
-</head>
-<body>
- <h1 class="title">Firstname M. Lastname</h1>
- <h2 class="jobTitle">Distinguished Professor of Computer Science</h2>
+  <head>
+    <script src="http://localhost:8000/release/cts.js" data-treesheet="/simple/madden/home.cts"></script>
+    <style type="text/cts">
+    @html content alias(body);
+    </style>
+  </head>
+ <body>
+ <div class="body">
+ <h1 class="name">Firstname M. Lastname</h1>
+ <h2 class="jobtitle">Distinguished Professor of Computer Science</h2>
+ <img class="headshot" src="headshot.png" data-fullsize="headshot.png" />
 
  <h3>Affiliation</h3>
  <div class="affiliation">
@@ -25,13 +25,13 @@
    </p>
  </div>
 
- <h3>Address</h3>
- <div class="address">
-   <div class="buildingName">The Stata Center</div>
-   <div class="buildingNumber">Building 32</div>
-   <div class="room">G-503</div>
-   <div class="address1">32 Vassar Street</div>
-   <div class="address2">Cambridge, MA 02139</div>
+ <h3>Contact Info</h3>
+ <div class="contact-info">
+   The Stata Center <br />
+   Building 32 <br />
+   G-503 <br />
+   32 Vassar Street <br />
+   Cambridge, MA 02139<br />
  </div>
 
  <h3>Classes</h3>
@@ -53,28 +53,46 @@
    </ul>
  </div>
 
- <h3>Bio</h3>
- <div class="bio">
+ <h3>Nav Links (usually on top of page)</h3>
+ <div class="navlinks">
+   <a href="http://www.google.com">Search the Web</a>
+   <a href="http://www.mit.edu">Learn Math</a>
+   <a href="http://www.reddit.com">Waste Time</a>
+ </div>
+
+ <h3>Short Blurb</h3>
+ <div class="short-blurb">
    <p>I am a Professor of Computer Science in the Foobar lab. I am interested in
    figuring out why web themes are so awful. And making Belgian waffles.</p>
  </div>
 
- <h3>Background</h3>
- <div class="background">
+ <h3>Biography</h3>
+ <div class="-bio">
    <p>After springing fully grown from the head of Zeus, I independally derived
    the Church-Turing thesis at 6 months of age. I took a break from my studies
    between the ages of 8 months and 9 months to hike the Himalayas, and then
    was tutored by the Dalai Lama in the art of Belgian waffle making.</p>
  </div>
 
- <h3>Random Content Blob 1</h3>
- <div class="randomContent1</div>
-   <p>Anything you put here is featured in a block on the theme</p>
+ <h3>Teaching</h3>
+ <div class="teaching">
+   <p>I generally assign my students unsolvable problems.</p>
  </div>
 
- <h3>Random Content Blob 2</h3>
- <div class="randomContent2</div>
-   <p>Anything you put here is featured in a block on the theme</p>
+ <h3>Research</h3>
+ <div class="research">
+   <p>After springing fully grown from the head of Zeus, I independally derived
+   the Church-Turing thesis at 6 months of age. I took a break from my studies
+   between the ages of 8 months and 9 months to hike the Himalayas, and then
+   was tutored by the Dalai Lama in the art of Belgian waffle making.</p>
+ </div>
+
+ <h3>Students</h3>
+ <div class="students">
+   <p>After springing fully grown from the head of Zeus, I independally derived
+   the Church-Turing thesis at 6 months of age. I took a break from my studies
+   between the ages of 8 months and 9 months to hike the Himalayas, and then
+   was tutored by the Dalai Lama in the art of Belgian waffle making.</p>
  </div>
 
  <h3>Awards</h3>
@@ -87,6 +105,24 @@
      <span class="year">2007</span>
      <span class="title">NSF CAREER Award</span>
     </li>
- </ul>
+  </ul>
+
+ <h3>Additional Homepage Sections</h3>
+ <div class="sections">
+   <section>
+     <h2>Section Title 1</h2>
+     <div class="section-content">
+       This is content for section 1
+     </div>
+     </section>
+     <section>
+       <h2>Section Title 2</h2>
+       <div class="section-content">
+         This is content for section 2
+       </div>
+     </section>
+
+ </div>
+</div>
 </body>
 </html>
