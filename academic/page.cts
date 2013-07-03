@@ -1,18 +1,13 @@
 /*
  * HEADER:
  *
- *   .header
- *   .header .title
- *   .header .titleImage
  */
 
+mockup| .academic-page-header      :is   .academic-page-header;
 
 /*
  * CONTENT:
  *
- *   .section
- *   .section .title
- *   .section .content
  */
 
-mockup| .section   :is   .section;
+mockup| .academic-page-content     :is   .academic-page-content;
