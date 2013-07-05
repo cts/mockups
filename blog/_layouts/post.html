@@ -1,0 +1,71 @@
+---
+---
+
+
+
+<html>
+    <head>
+        <script src="{{site.url}}/release/cts.js" data-treesheet="{{site.url}}/post.cts"></script>
+        <link rel="treesheet" href="{{site.url}}/{{site.theme}}/{{site.theme}}.cts" />
+      
+        <title>Recursive Blog</title>
+        <style type="text/cts">
+            @html post {{site.url}}/{{site.theme}}/post.html;
+        </style>
+        </head>
+        
+    <body>
+        <div id="page">
+            <h1<a href="{{site.url}}">Recursive Blog</a></h1>
+            <h2>Ruminations on Ruminations</h2>
+        
+            <div id="nav">
+                <ul>
+                    <li><a href="http://www.google.com">Google</a>
+                        <ul>
+                            <li><a href="http://mail.google.com">Google Mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.reddit.com">Reddit</a></li>
+                    <li><a href="http://www.wolphramalpha.com">Wolfram Alpha</a></li>
+                </ul>
+            </div>
+              
+              
+            <div id="individual-article">
+
+                <h1 class="entry-title">{{page.title}}</h1>
+                <span class="entry-date"><time class="post-date" date="{{page-date}}">{{page.date | date: "%d %B, %Y" }}</time></span>
+                <a class="cat-links" href="{{site.url}}/{{page.category}}">{{page.category}}</a>
+                <span class="tags-links">
+                    {% for tag in page.tags %}
+                        <a href="{{site.url}}/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                </span>
+                <div class="entry-content">{{content}}</div>
+                
+            </div>
+            
+            <div id="recentPosts">
+                {% for post in site.posts limit:5 %}
+                <a href="{{site.url}}{{post.url}}">{{post.title}}</a>
+                {% endfor %}
+            </div>
+              
+              
+            <div id="archives">
+                <a href="/2013/06">June 2013</a>
+                <a href="/2013/05">May 2013</a>
+                <a href="/2013/04">April 2013</a>
+            </div>
+              
+            <div id="categories">
+                {% for cat in site.categories limit:5 %}
+                    <a href="{{site.url}}/category/{{cat[0]}}">{{cat[0]}}</a>
+                {% endfor %}
+            </div>
+
+        </div>
+    </body>
+
+</html>
