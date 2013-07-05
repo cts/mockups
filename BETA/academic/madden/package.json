@@ -2,6 +2,7 @@
   "type": "academic",
   "name": "madden",
   "files": [
+    "home.cts",
     "home.html"
   ]
 }
