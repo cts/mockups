@@ -1,7 +1,7 @@
 {
   "name": "jekyll",
   "files": [
-    "index.html",
+    "index.html", "index.cts", "page.cts", "post.cts", "tagcat.cts",
     {
       "_layouts": ["page.html", "post.html", "tagcat.html"],
       "_plugins": ["_tagcat_gen.rb"]
