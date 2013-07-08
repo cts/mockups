@@ -1,0 +1,10 @@
+{
+  "name": "jekyll",
+  "files": [
+    "index.html",
+    {
+      "_layouts": ["page.html", "post.html", "tagcat.html"],
+      "_plugins": ["_tagcat_gen.rb"]
+    }
+  ]
+}
