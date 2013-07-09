@@ -1,9 +1,9 @@
 {
   "name": "jekyll",
   "files": [
-    "index.html", "index.cts", "page.cts", "post.cts", "tagcat.cts",
+    "index.html", "index.cts", "page.cts", "post.cts", "list.cts",
     {
-      "_layouts": ["page.html", "post.html", "tagcat.html"],
+      "_layouts": ["page.html", "post.html", "list.html"],
       "_plugins": ["_tagcat_gen.rb"]
     }
   ]
