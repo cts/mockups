@@ -1,49 +1,48 @@
 ---
-title: Default Layout Renderer
+
 ---
 
 <html>
-  <head>
-    <script src="{{site.url}}/release/cts.js" data-treesheet="{{site.url}}/page.cts"></script>
-      <link rel="treesheet" href="{{site.url}}/mockups/{{site.theme}}/{{site.theme}}.cts" />
-      
-	<title>Recursive Blog</title>
-    <style type="text/cts">
-        @html page {{site.url}}/mockups/{{site.theme}}/page.html;
-    </style>
-  </head>
 
-  <body>
-      <div id="page">
-    <h1><a href="{{site.url}}">Recursive Blog</a></h1>
-    <h2>Ruminations on Ruminations</h2>
+    <head>
+        
+        <script src="{{site.url}}/release/cts.js" data-treesheet="{{site.url}}/page.cts"></script>
+        <link rel="treesheet" href="{{site.url}}/mockups/{{site.theme}}/{{site.theme}}.cts" />
+ 
+        <title>Theme Preview</title>
+        
+        <style type="text/cts">
+            @html page {{site.url}}/mockups/{{site.theme}}/page.html;
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div id="page">
+            
+            <h1 id="site-title"><a href="{{site.url}}">Recursive Blog</a></h1>
+            <h2 id="site-description">Ruminations on Ruminations</h2>
 
-    <div id="nav">
-		<ul>
-			<li><a href="http://www.google.com">Google</a>
-				<ul>
-					<li><a href="http://mail.google.com">Google Mail</a></li>
-				</ul>
-			</li>
-			<li><a href="http://www.reddit.com">Reddit</a></li>
-			<li><a href="http://www.wolphramalpha.com">Wolfram Alpha</a></li>
-		</ul>
-    </div>
-	<div id="recentPosts">
-		<a href="/post5">Post 5</a>
-		<a href="/post4">Post 4</a>
-		<a href="/post3">Post 3</a>
-		<a href="/post2">Post 2</a>
-		<a href="/post1">Post 1</a>
-	</div>
-	
+            <div id="nav-main">
+                <ul>
+                    <li><a href="http://www.google.com">Google</a>
+                        <ul>
+                            <li><a href="http://mail.google.com">Google Mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.reddit.com">Reddit</a></li>
+                    <li><a href="http://www.wolphramalpha.com">Wolfram Alpha</a></li>
+                </ul>
+            </div>
+            
+            <a class="site-url">{{site.url}}</a>
       
-    <div id="recentPosts">
+            <div id="recent-posts">
                 {% for post in site.posts limit:5 %}
                 <a href="{{site.url}}{{post.url}}">{{post.title}}</a>
                 {% endfor %}
             </div>
-              
               
             <div id="archives">
                 <a href="/2013/06">June 2013</a>
@@ -55,13 +54,15 @@ title: Default Layout Renderer
                 {% for cat in site.categories limit:5 %}
                     <a href="{{site.url}}/category/{{cat[0]}}">{{cat[0]}}</a>
                 {% endfor %}
-                </div>
+            </div>
       
-      <div id="content">
-          {{content}}
-      </div>
-</div>
- </body>
+            <div id="content">
+                {{content}}
+            </div>
+            
+        </div>
+        
+    </body>
 
 </html>
 

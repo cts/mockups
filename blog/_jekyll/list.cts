@@ -8,35 +8,37 @@
  * ------------------------------------   ---------   ------------------
  */
 
-tagcat | .page-title .index-type               :is    h2.index-type;
-tagcat | .page-title .index-cat               :is    h2.index-cat;
+list | .page-title .index-type                :is      .index-type;
+list | .page-title .index-cat                 :is      .index-cat;
 
-tagcat | article .entry-title-inner                  :is      #article-list article .entry-title a;
-tagcat | article .entry-title a {attribute:href} :is      #article-list article .entry-title a {attribute:href};
-tagcat | article .entry-title {attribute:href} :is      #article-list article .entry-title a {attribute:href};
-tagcat | article .entry-content                :is      #article-list article .entry-content;
-tagcat | article .post-date                          :is      #article-list article .post-date;
-tagcat | article .cat-links                    :is      #article-list article .cat-links;
-tagcat | article .cat-links a {attribute:href} :is      #article-list article .cat-links a {attribute:href};
-tagcat | article .tags-links                   :is      #article-list article .tags-links;
-tagcat | #article-list                              :are      #article-list;
+list | article .entry-title-inner             :is      #article-list article .entry-title a;
+list | article .entry-title a {attribute:href}:is      #article-list article .entry-title a {attribute:href};
+list | article .entry-title {attribute:href}  :is      #article-list article .entry-title a {attribute:href};
+list | article .entry-content                 :is      #article-list article .entry-content;
+list | article .entry-date                    :is      #article-list article .entry-date-inner;
+list | article .cat-links                     :is      #article-list article .cat-link;
+list | article .cat-links a {attribute:href}  :is      #article-list article .cat-link a {attribute:href};
+list | article .tags-links                    :is      #article-list article .tag-links;
+list | #article-list                          :are     #article-list;
 
-tagcat | .site-title                         :is      body > #page > h1;
-tagcat | .site-description                   :is      body > #page > h2;
-tagcat | .menu > ul                          :is      #nav > ul;
-tagcat | .menu > ul > li                     :is      #nav > ul > li;
-tagcat | .menu .children                     :are     #nav> ul > li > ul;
-tagcat | .menu a                             :is      #nav a;
-tagcat | .menu a {attribute:href}            :is      #nav a {attribute:href};
-tagcat | #recent-posts ul                  :are     #recentPosts;
-tagcat | #recent-posts li a                :is      #recentPosts a;
-tagcat | #recent-posts li a {attribute:href} :is    #recentPosts a {attribute:href};
-tagcat | #archives ul                      :are     #archives;
-tagcat | #archives li a                    :is      #archives a;
-tagcat | #archives li a {attribute:href}   :is      #archives a {attribute:href};
-tagcat | #categories ul                    :are     #categories;
-tagcat | #categories li a                  :is      #categories a;
-tagcat | #categories li a {attribute:href} :is      #categories a {attribute:href};
+list | .site-title                            :is      #site-title;
+list | .site-title a {attribute:href}         :is      #site-title a {attribute:href};
+list | .site-description                      :is      #site-description;
+list | .menu > ul                             :is      #nav-main > ul;
+list | .menu > ul > li                        :is      #nav-main > ul > li;
+list | .menu .children                        :are     #nav-main > ul > li > ul;
+list | .menu a                                :is      #nav-main a;
+list | .menu a {attribute:href}               :is      #nav-main a {attribute:href};
+list | #recent-posts ul                       :are     #recent-posts;
+list | #recent-posts li a                     :is      #recent-posts a;
+list | #recent-posts li a {attribute:href}    :is      #recent-posts a {attribute:href};
+list | #archives ul                           :are     #archives;
+list | #archives li a                         :is      #archives a;
+list | #archives li a {attribute:href}        :is      #archives a {attribute:href};
+list | #categories ul                         :are     #categories;
+list | #categories li a                       :is      #categories a;
+list | #categories li a {attribute:href}      :is      #categories a {attribute:href};
+list | #search form {attribute: action}       :is      a.site-url {attribute:href};
 
 
 
@@ -48,5 +50,5 @@ tagcat | #categories li a {attribute:href} :is      #categories a {attribute:hre
  * Content Selectors                      Relation    Mockup Selectors
  * ------------------------------------   ---------   ------------------
  */
-#article-list article                     :graft   tagcat | article;
-#page                                       :graft   tagcat | #page;
+#article-list article                         :graft   list | article;
+#page                                         :graft   list | #page;

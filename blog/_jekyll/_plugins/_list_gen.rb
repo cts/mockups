@@ -1,30 +1,34 @@
 module Jekyll
-  class CatsAndTags < Generator
+  class List < Generator
     def generate(site)
+        
       site.categories.each do |category|
         build_subpages(site, "category", category[0], category[1])
       end
       
       site.tags.each do |tag|
-        build_subpages(site, "tag", tag[0], category[1])
+        build_subpages(site, "tag", tag[0], tag[1])
       end
+       
       years = {};
       site.posts.each do |post|
         if years.has_key?(post.date.year)
-          years[post.date.year][post.date.month].push(post)
-          
-        else
-          if (not years[post.date.year].include?(post.date.month)) {
+          if not years[post.date.year].include?(post.date.month)
             years[post.date.year] = {post.date.month=>[post]}
-          }
+          else
+            years[post.date.year][post.date.month].push(post)
+          end     
+        else
+          years[post.date.year] = {post.date.month=>[post]}
+        end      
+      end
+      years.each_key do |year|
+        years[year].each_key do |month|
+          puts month.rjust(2, '0')
+          build_subpages(site, "archives", "#{year}/#{month.rjust(2, '0')}", years[year][month])
         end
+      end
         
-      end
-      years.each do |year|
-        year.each.do |month|
-          build_subpages(site, "archives", "#{year}/#{month}", year[month])
-        end
-      end
     end
       
     def build_subpages(site, type, val, posts)    
