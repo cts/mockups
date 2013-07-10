@@ -4,7 +4,7 @@
     "index.html", "index.cts", "page.cts", "post.cts", "list.cts",
     {
       "_layouts": ["page.html", "post.html", "list.html"],
-      "_plugins": ["_tagcat_gen.rb"]
+      "_plugins": ["_list_gen.rb"]
     }
   ]
 }
