@@ -33,9 +33,9 @@ post | article                                :is      #individual-article;
 post | article .entry-title                   :is      #individual-article .entry-title;
 post | article .entry-content                 :is      #individual-article .entry-content;
 post | article .entry-date                    :is      #individual-article .entry-date-inner;
-post | article .cat-links a                   :is      #individual-article .cat-link;
-post | article .cat-links a {attribute:href}  :is      #individual-article .cat-link {attribute:href};
-post | article .tags-links                    :is      #individual-article .tag-links;
+post | article .cat-link a                    :is      #individual-article .cat-link;
+post | article .cat-link a {attribute:href}   :is      #individual-article .cat-link {attribute:href};
+post | article .tag-links                     :is      #individual-article .tag-links;
 
 
 

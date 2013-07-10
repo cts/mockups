@@ -14,9 +14,9 @@ index | article .entry-title a {attribute:href}:is      #article-list article .e
 index | article .entry-title {attribute:href}  :is      #article-list article .entry-title a {attribute:href};
 index | article .entry-content                 :is      #article-list article .entry-content;
 index | article .entry-date                    :is      #article-list article .entry-date-inner;
-index | article .cat-links                     :is      #article-list article .cat-links;
-index | article .cat-links a {attribute:href}  :is      #article-list article .cat-links a {attribute:href};
-index | article .tags-links                    :is      #article-list article .tags-links;
+index | article .cat-link                      :is      #article-list article .cat-link;
+index | article .cat-link a {attribute:href}   :is      #article-list article .cat-link a {attribute:href};
+index | article .tag-links                     :is      #article-list article .tag-links;
 index | .article-list                          :are     #article-list;
 
 index | .site-title                            :is      #site-title;

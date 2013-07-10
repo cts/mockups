@@ -24,7 +24,6 @@ module Jekyll
       end
       years.each_key do |year|
         years[year].each_key do |month|
-          puts month.rjust(2, '0')
           build_subpages(site, "archives", "#{year}/#{month.to_s().rjust(2, '0')}", years[year][month])
         end
       end

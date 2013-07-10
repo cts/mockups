@@ -16,9 +16,9 @@ list | article .entry-title a {attribute:href}:is      #article-list article .en
 list | article .entry-title {attribute:href}  :is      #article-list article .entry-title a {attribute:href};
 list | article .entry-content                 :is      #article-list article .entry-content;
 list | article .entry-date                    :is      #article-list article .entry-date-inner;
-list | article .cat-links                     :is      #article-list article .cat-link;
-list | article .cat-links a {attribute:href}  :is      #article-list article .cat-link a {attribute:href};
-list | article .tags-links                    :is      #article-list article .tag-links;
+list | article .cat-link                      :is      #article-list article .cat-link;
+list | article .cat-link a {attribute:href}   :is      #article-list article .cat-link a {attribute:href};
+list | article .tag-links                     :is      #article-list article .tag-links;
 list | #article-list                          :are     #article-list;
 
 list | .site-title                            :is      #site-title;
