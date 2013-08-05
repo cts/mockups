@@ -1,0 +1,7 @@
+{
+    "type": "blog",
+    "name": "twenty-thirteen",
+    "files": [
+        "index.html", "page.html", "post.html", "twenty-thirteen.cts", "list.html"
+    ]
+}
