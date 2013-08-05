@@ -14,7 +14,7 @@ module Jekyll
       site.posts.each do |post|
         if years.has_key?(post.date.year)
           if not years[post.date.year].include?(post.date.month)
-            years[post.date.year] = {post.date.month=>[post]}
+            years[post.date.year][post.date.month] = [post]
           else
             years[post.date.year][post.date.month].push(post)
           end     
