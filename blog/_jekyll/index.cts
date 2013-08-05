@@ -9,34 +9,17 @@
  * ------------------------------------   ---------   ------------------
  */
 
-index | article .entry-title-inner             :is      #article-list article .entry-title a;
-index | article .entry-title a {attribute:href}:is      #article-list article .entry-title a {attribute:href};
-index | article .entry-title {attribute:href}  :is      #article-list article .entry-title a {attribute:href};
-index | article .entry-content                 :is      #article-list article .entry-content;
-index | article .entry-date                    :is      #article-list article .entry-date-inner;
-index | article .cat-link                      :is      #article-list article .cat-link;
-index | article .cat-link a {attribute:href}   :is      #article-list article .cat-link a {attribute:href};
-index | article .tag-links                     :is      #article-list article .tag-links;
-index | .article-list                          :are     #article-list;
+mockup | article .entry-title-inner             :is      #article-list article .entry-title a;
+mockup | article .entry-title a {attribute:href}:is      #article-list article .entry-title a {attribute:href};
+mockup | article .entry-title {attribute:href}  :is      #article-list article .entry-title a {attribute:href};
+mockup | article .entry-content                 :is      #article-list article .entry-content;
+mockup | article .entry-date                    :is      #article-list article .entry-date-inner;
+mockup | article .cat-link                      :is      #article-list article .cat-link;
+mockup | article .cat-link a {attribute:href}   :is      #article-list article .cat-link a {attribute:href};
+mockup | article .tag-links                     :is      #article-list article .tag-links;
+mockup | .article-list                          :are     #article-list;
 
-index | .site-title                            :is      #site-title;
-index | .site-title a {attribute:href}         :is      #site-title a {attribute:href};
-index | .site-description                      :is      #site-description;
-index | .menu > ul                             :is      #nav-main > ul;
-index | .menu > ul > li                        :is      #nav-main > ul > li;
-index | .menu .children                        :are     #nav-main > ul > li > ul;
-index | .menu a                                :is      #nav-main a;
-index | .menu a {attribute:href}               :is      #nav-main a {attribute:href};
-index | #recent-posts ul                       :are     #recent-posts;
-index | #recent-posts li a                     :is      #recent-posts a;
-index | #recent-posts li a {attribute:href}    :is      #recent-posts a {attribute:href};
-index | #archives ul                           :are     #archives;
-index | #archives li a                         :is      #archives a;
-index | #archives li a {attribute:href}        :is      #archives a {attribute:href};
-index | #categories ul                         :are     #categories;
-index | #categories li a                       :is      #categories a;
-index | #categories li a {attribute:href}      :is      #categories a {attribute:href};
-index | #search form {attribute: action}       :is      a.site-url {attribute:href};
+{% include default.cts %}
 
 
 
