@@ -33,6 +33,6 @@ mockup | .article-list                          :are     #article-list;
  * Content Selectors                      Relation    Mockup Selectors
  * ------------------------------------   ---------   ------------------
  */
-#article-list article                          :graft   index | article;
-#page                                          :graft   index | #page;
+#article-list article                          :graft   mockup | article;
+#page                                          :graft   mockup | #page;
 

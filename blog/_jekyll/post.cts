@@ -33,6 +33,6 @@ mockup | article .tag-links                     :is      #individual-article .ta
  * Content Selectors                      Relation    Mockup Selectors
  * ------------------------------------   ---------   ------------------
  */
-#page                                         :graft   post | #page;
-#page {attribute:class}                       :is      post | #page {attribute:class};
-#individual-article                           :graft   post | article;
+#page                                         :graft   mockup | #page;
+#page {attribute:class}                       :is      mockup | #page {attribute:class};
+#individual-article                           :graft   mockup | article;

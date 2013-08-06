@@ -1,7 +1,6 @@
 {
   "name": "jekyll_content",
   "files": {
-      "_includes": {"default.html":"utf8", "default.cts":"utf8"},
       "_posts": {"2008-10-17-worth-a-thousand-words.html":"utf8", "2008-09-05-elements.html":"utf8"},
       "images": {"boat.jpg":"binary"}
     }

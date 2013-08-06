@@ -2,6 +2,6 @@
     "type": "blog",
     "name": "twenty-thirteen",
     "files": {
-        "index.html":"utf8", "page.html":"utf8", "post.html":"utf8", "twenty-thirteen.cts":"utf8", "list.html":"utf8", "twenty-thirteen":"utf8"
+        "index.html":"utf8", "page.html":"utf8", "post.html":"utf8", "twenty-thirteen.cts":"utf8", "list.html":"utf8", "twenty-thirteen":"utf8", "default.html":"utf8"
     }
 }
