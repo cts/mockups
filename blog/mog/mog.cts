@@ -13,6 +13,6 @@
  * ------------------------------------   ---------   ------------------
  */
 
-header                                      :graft   default | header;
-#secondary                                  :graft   default | #secondary;
-footer                                      :graft   default | footer;
+mockup | #masthead                          :graft   default | #masthead;
+mockup | #secondary                         :graft   default | #secondary;
+mockup | #colophon                          :graft   default | #colophon;
