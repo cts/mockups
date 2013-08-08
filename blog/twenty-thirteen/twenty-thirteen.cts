@@ -6,3 +6,14 @@
 @js http://wp-themes.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1;
 @js http://wp-themes.com/wp/wp-includes/js/jquery/jquery.masonry.min.js?ver=2.1.05;
 @js http://wp-themes.com/wp-content/themes/twentythirteen/js/functions.js?ver=2013-07-18;
+
+
+/* And then graft the mockup into the current page
+ *
+ * (Target)                                 <----     (Source)
+ * Content Selectors                      Relation    Mockup Selectors
+ * ------------------------------------   ---------   ------------------
+ */
+
+mockup | #masthead                          :graft   default | #masthead;
+mockup | .site-footer                       :graft   default | .site-footer;

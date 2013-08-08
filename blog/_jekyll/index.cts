@@ -19,7 +19,7 @@ mockup | article .entry-date                    :is      #article-list article .
 mockup | article .cat-link                      :is      #article-list article .cat-link;
 mockup | article .cat-link a {attribute:href}   :is      #article-list article .cat-link a {attribute:href};
 mockup | article .tag-links                     :is      #article-list article .tag-links;
-mockup | .article-list                          :are     #article-list;
+mockup | #article-list                          :are     #article-list;
 
 {% include default.cts %}
 
