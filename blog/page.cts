@@ -1,6 +1,4 @@
----
-
----
+@cts default.cts;
 
 /* Map the page content onto the mockup  
  * 
@@ -10,9 +8,6 @@
  * Mockup Selectors                       Relation    Content Selectors
  * ------------------------------------   ---------   ------------------
  */
-
-
-{% include default.cts %}
 
 
 

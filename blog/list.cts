@@ -1,6 +1,4 @@
----
-
----
+@cts default.cts;
 /* Map the page content onto the mockup  
  * 
  * Note that relations are performed in Target <--- Source direction.
@@ -23,7 +21,6 @@ mockup | article .cat-link a {attribute:href}   :is      #article-list article .
 mockup | article .tag-links                     :is      #article-list article .tag-links;
 mockup | #article-list                          :are     #article-list;
 
-{% include default.cts %}
 
 
 
