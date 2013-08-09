@@ -1,6 +1,4 @@
----
-
----
+@cts default.cts;
 
 /* Map the page content onto the mockup  
  * 
@@ -11,8 +9,6 @@
  * ------------------------------------   ---------   ------------------
  */
 
-
-{% include default.cts %}
 
 
 

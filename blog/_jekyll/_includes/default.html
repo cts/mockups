@@ -34,7 +34,7 @@
     {% endfor %}
 
     {% assign archives_list_array = archives_list | split: '|'%}
-    {% for date_time in archives_list_array limit:5 %}
+    {% for date_time in archives_list_array limit:5 offset:1 %}
         <a href='{{site.url}}/archives/{{date_time | date: "%Y"}}/{{date_time | date: "%m"}}'>{{date_time | date: "%B %Y"}}</a>
     {% endfor %}
 </div>
