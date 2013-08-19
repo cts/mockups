@@ -41,3 +41,15 @@
     cursor: pointer;
 }
 
+.cts-ui .cts-ui-tray button, .cts-ui .cts-ui-tray i, .cts-ui .cts-ui-tray em, .cts-ui .cts-ui-tray cite, .cts-ui .cts-ui-tray dfn {
+    text-transform:none;
+}
+
+.cts-ui .cts-ui-tray ul {
+    list-style-type:none;
+}
+
+.cts-ui .cts-ui-tray a:hover, .cts-ui .cts-ui-tray a:focus, .cts-ui .cts-ui-tray a:active {
+    transition: none;
+    -webkit-transition: none;
+}
