@@ -38,7 +38,7 @@ title: List
                       {% for post in page.posts %}
                             <article>
                                 <h1 class="entry-title"><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h1>
-                                <span class="entry-date"><time class="entry-date-time" date="{{post.date}}">{{post.date | date: "%d %B, %Y" }}</time></span>
+                                <span class="entry-date"><time class="entry-date-inner" date="{{post.date}}">{{post.date | date: "%d %B, %Y" }}</time></span>
                                 <span class="cat-link"> Posted in <a href="{{site.url}}/category/{{post.category}}">{{post.category}}</a></span>
                                 <span class="tag-links">Tagged 
                                     {% for tag in post.tags %}

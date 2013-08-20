@@ -1,4 +1,4 @@
-@cts default.cts;
+@cts relative(default.cts);
 /* Map the page content onto the mockup  
  * 
  * Note that relations are performed in Target <--- Source direction.

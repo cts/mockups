@@ -1,8 +1,7 @@
-default | .site-title                            :is      #site-title;
-default | .site-title a {attribute:href}         :is      #site-title .home-link {attribute:href};
-default | .home-link {attribute:href}            :is      .home-link {attribute:href};
+default | .site-title a                          :is      #site-title;
 default | .site-description                      :is      #site-description;
-mockup | .site-description                      :is      #site-description;
+mockup  | .site-description                      :is      #site-description;
+default | .site-title a {attribute:href}         :is      .home-link {attribute:href};
 default | .menu > ul                             :is      #nav-main > ul;
 default | .menu > ul > li                        :is      #nav-main > ul > li;
 default | .menu .children                        :are     #nav-main > ul > li > ul;
