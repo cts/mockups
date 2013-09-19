@@ -1,0 +1,9 @@
+{
+    "type": "blog",
+    "name": "label-printer",
+    "files": {
+        "default.html":"utf8",
+        "label-printer.css":"utf8",
+        "label-printer.cts":"utf8"
+    }
+}
