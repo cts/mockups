@@ -1,0 +1,8 @@
+#page {
+  margin: 0 auto;
+  max-width: 1040px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 24px 24px 0;
+  margin-bottom: 24px;
+}
