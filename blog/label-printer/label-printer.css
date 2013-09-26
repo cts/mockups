@@ -221,3 +221,28 @@ section.content blockquote cite{
   color: #111;
   font-style: normal;
 }
+
+ul.article-list {
+  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+ul.article-list li.article {
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 0px;
+  margin: 0;
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+ul.article-list li.article span.entry-date {
+  float: right;
+}
+ul.article-list li.article a {
+  text-decoration: none;
+}
+
+ul.article-list li.aticle a:hover{
+  text-decoration: underline;
+}
