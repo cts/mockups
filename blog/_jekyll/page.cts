@@ -22,3 +22,4 @@
  */
 
 #page                                         :graft   mockup | #page;
+#page {attribute:class}                         :is   mockup | #page {attribute:class};

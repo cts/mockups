@@ -33,4 +33,5 @@ mockup | #article-list                          :are     #article-list;
  */
 #article-list article                          :graft   mockup | article;
 #page                                          :graft   mockup | #page;
+#page {attribute:class}                         :is   mockup | #page {attribute:class};
 

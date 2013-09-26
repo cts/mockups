@@ -1,19 +1,19 @@
-<h1 id="site-title">Theme Preview</h1>
+<h1><a id="site-title" class="home-link" href="{{site.url}}">Theme Preview</a></h1>
 <h2 id="site-description">Description of site</h2>
 
 <div id="nav-main">
     <ul>
-        <li><a href="{{site.url}}/">Home</a></li>
+        <li><a href="{{site.url}}">Home</a></li>
         <li><a href="{{site.url}}/about">About</a></li>
         <li><a href="{{site.url}}/#">Parent Page</a>
-            <ul class="children">
+            <ul>
                 <li><a href="{{site.url}}/#">Sub-page</a></li>
             </ul>
         </li>
     </ul>
 </div>
 
-<a class="home-link site-url" href="{{site.url}}/"></a>
+<a class="site-url" href="{{site.url}}"></a>
 
 <div id="recent-posts">
     {% for post in site.posts limit:5 offset:1 %}
