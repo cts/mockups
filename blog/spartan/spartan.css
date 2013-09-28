@@ -1,0 +1,5 @@
+.magfive_title h2 a{ color: }
+.actual_post_title h2 a{ color: !important}
+.actual_post_title_page h2{ color: !important}
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+body.custom-background { background-image: url('http://wp-themes.com/wp-content/themes/spartan/images/silver/page_bg.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
