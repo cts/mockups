@@ -1,0 +1,7 @@
+{
+    "type": "blog",
+    "name": "twenty-twelve",
+    "files": {
+        "index.html":"utf8", "page.html":"utf8", "post.html":"utf8", "twenty-twelve.cts":"utf8", "list.html":"utf8", "twenty-twelve.css":"utf8", "default.html":"utf8"
+    }
+}
