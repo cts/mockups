@@ -27,19 +27,19 @@ Users of CTS are:
 
 ## What are these use cases?
 
-### People who only host STATIC websites
+#### People who only host STATIC websites
 * You don't care too much, or else you wouldn't want anyone to be able to use this theme (e.g. portfolio)
 * You don't care too little, or else you wouldn't care about your theme in the first place
 * Do people actually use static blogging? New age systems like Medium and Ghost are extremely minimalist and becoming ever more popular
 * My opinion: people who blog will use a database driven system, and people who want static pages will make them so custom that they will not want them to be copyable (portfolios, showcases, landing pages).
 
-### People who design themes
+#### People who design themes
 * You probably don't have too much experience (unless you're a professional theme designer)
 * Your main concern is making the theme look right, not being standards compliant
 * You want to make it easy for people to switch to your theme, but not easy for people to switch away from it
 * My opinion: Unless CTS becomes much easier to learn (i.e. better documentation, strong community interest, lots of examples, lots of existing CTS compatible sites) people who design themes won't have a dire need to learn it
 
-### Enterprises
+#### Enterprises
 * You are a site that focuses on theming, and you have a vested interest in making it easier and more standardized
 * You have the resources to throw behind a new technology that could make things a lot easier for you
 * My opinion: this is probably the best hope for CTS to gain traction
@@ -58,4 +58,38 @@ I'm still not too sure about how CTS handles the templating of Jekyll correctly,
 
 ...[some time passes]...
 
-Ok, 
+Ok,
+
+So now I have an understanding of Jekyll and things are much clearer to me. The CTS command line utility creates a default Jekyll blog, puts in Wordpress-like post data, then presents a set of default CTS links to what a wordpress default layout should conform to. Seems pretty reasonable.
+
+## How could I apply this practically?
+
+If I saw a piece of a website that I liked and wanted to use in my own website, I would...
+
+Look in inspector, copy the relevant html and styles, then try to fit it in with my site. I don't know if I would trust CTS to be able to match up all the elements I have perfectly. From experience, I know that html structures rarely fit PnP into each other, and need serious tweaking to get right. I'm not sure what this exact workflow would be like using CTS.
+
+Then again, it's probably because I don't fully understand CTS yet and there still seems to be a lot of Automagic™ to it.
+
+If I were a business who wanted to implement CTS in their theming suite, I would...
+
+Probably pay people who knew CTS to go through all of the themes and create CTS files for every one of them. This is a pretty steep investment.
+
+## Current products in progress
+
+#### CTS UI
+
+a browser plugin to leverage and showcase the power of CTS
+
+For: People who use STATIC websites (blogging) and People who design themes
+
+Allows layout snipping, swapping, editing, saving in browser.
+
+Could be an account driven service, could be a server side plugin that updates your site based on the changes from cts ui, could even use something like Meteor to host the static files and see immediate changes.
+
+Could be as simple as dropping updated files in with FTP! Meteor would show the updates immediately, since it tracks changes to assets.
+
+#### CTS-cli
+
+a tool for generating CTS blogs powered by Jekyll. Can also scrape information from websites that already have associated CTS information.
+
+
