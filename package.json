@@ -1,0 +1,24 @@
+{
+  "name": "cts-mockups",
+  "description": "Mockups for use with CTS",
+  "homepage": "http://www.treesheets.org",
+  "version": "0.5.1",
+  "author": {
+    "name":"Ted Benson",
+    "email":"eob@csail.mit.edu>"
+  },
+  "keywords": ["treesheets", "cts", "cats", "structure", "cascading treesheets", "tree"],
+  "licenses": [{
+    "type":"MIT",
+    "url":"http://opensource.org/licenses/mit-license.php"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cts/mockups"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-web-server": "*"
+  }
+}
+

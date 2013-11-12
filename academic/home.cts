@@ -1,6 +1,6 @@
 @html mockuprelative(home.html);
 
-content | .body                :graft     mockup | .body;
+content | .body              :graft       mockup | .body;
 
 mockup| .research            :is          content | .research;
 
