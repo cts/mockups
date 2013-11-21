@@ -22,10 +22,6 @@ mockup | article .cat-link a {attribute:href}   :is      #article-list article .
 mockup | article .tag-links                     :is      #article-list article .tag-links;
 mockup | #article-list                          :are     #article-list;
 
-
-
-
-
 /* And then graft the mockup into the current page
  *
  * (Target)                                 <----     (Source)
