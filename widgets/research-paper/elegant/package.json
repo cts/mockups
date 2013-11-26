@@ -1,10 +1,10 @@
 {
-  'name': 'Elegant',
-  'author': {
-    'name': 'Ted Benson',
-    'email': 'eob@csail.mit.edu'
+  "name": "Elegant",
+  "author": {
+    "name": "Ted Benson",
+    "email": "eob@csail.mit.edu"
   },
-  'cts': 'elegant.cts',
-  'thumbnail': 'elegant.png',
-  'demo': 'elegant.html'
+  "cts": "elegant.cts",
+  "thumbnail": "elegant.png",
+  "demo": "elegant.html"
 }
