@@ -26,7 +26,6 @@ function getData(node, selector) {
   return node.find(selector).text().split(" ");
 }
 
-
 CTS.loaded.then(function() {
   CTS.on('cts-received-graft', function(evt) {
     widget = evt.target.value;
