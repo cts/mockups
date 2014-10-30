@@ -2,7 +2,7 @@
 @css relative(example.css);
 @js relative(example.js);
 
-.scrabble :graft widget | #scrabble-widget ;
+.anagram :graft widget | #anagram-widget ;
 
 widget | .word :is .word ;
 
