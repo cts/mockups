@@ -1,4 +1,4 @@
-var renderBarGraph = function(widget) {
+var renderBarGraph = function(data, widget) {
   var container = d3.select(widget.get(0));
 
   var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -61,7 +61,8 @@ var renderBarGraph = function(widget) {
 
 CTS.loaded.then(function() {
   CTS.on('cts-received-graft', function(event) {
-    var widget = event.target.value;
-    renderBarGraph(widget);
+    var widget = event.target.value.find(".bar-chart");
+    var data = scrape();
+    renderBarGraph(data, widget);
   });
 });
