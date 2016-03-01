@@ -328,6 +328,9 @@ d3.csv("data.csv", function(error, csv) {
     if (s < min) min = s;
   });
 
+  console.log("DATA");
+  console.log(data);
+
   chart.domain([min, max]);
 
   var svg = d3.select("body").selectAll("svg")
