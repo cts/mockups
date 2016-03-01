@@ -300,53 +300,37 @@ function boxQuartiles(d) {
 
 })();
 
-var renderBoxPlot = function(widget) {
+var renderBoxPlot = function(scrapedData, widget) {
   var container = d3.select(widget.get(0));
 
   var margin = {top: 10, right: 50, bottom: 20, left: 50},
       width = 120 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
 
-  var min = Infinity,
-      max = -Infinity;
+  var min = scrapedData["min"];
+  var max = scrapedData["max"];
+  var data = scrapedData["data"];
 
   var chart = d3.box()
       .whiskers(iqr(1.5))
       .width(width)
       .height(height);
 
-  d3.csv("data.csv", function(error, csv) {
-    if (error) throw error;
+  chart.domain([min, max]);
 
-    var data = [];
+  var svg = container.selectAll("svg")
+      .data(data)
+    .enter().append("svg")
+      .attr("class", "box")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.bottom + margin.top)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .call(chart);
 
-    csv.forEach(function(x) {
-      var e = Math.floor(x.Expt - 1),
-          r = Math.floor(x.Run - 1),
-          s = Math.floor(x.Speed),
-          d = data[e];
-      if (!d) d = data[e] = [s];
-      else d.push(s);
-      if (s > max) max = s;
-      if (s < min) min = s;
-    });
-
-    chart.domain([min, max]);
-
-    var svg = container.selectAll("svg")
-        .data(data)
-      .enter().append("svg")
-        .attr("class", "box")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.bottom + margin.top)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-        .call(chart);
-
-    setInterval(function() {
-      svg.datum(randomize).call(chart.duration(1000));
-    }, 2000);
-  });
+  setInterval(function() {
+    svg.datum(randomize).call(chart.duration(1000));
+  }, 2000);
 
   function randomize(d) {
     if (!d.randomizer) d.randomizer = randomizer(d);
@@ -377,7 +361,8 @@ var renderBoxPlot = function(widget) {
 
 CTS.loaded.then(function() {
   CTS.on('cts-received-graft', function(event) {
-    var widget = event.target.value;
-    renderBoxPlot(widget);
+    var widget = event.target.value.find(".box-plot");
+    var data = scrape();
+    renderBoxPlot(data, widget);
   });
 });
