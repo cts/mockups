@@ -24,16 +24,16 @@ var svg = d3.select("#scatterplot").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data.tsv", function(error, data) {
+d3.tsv("scatterplot.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
-    d.sepalLength = +d.sepalLength;
-    d.sepalWidth = +d.sepalWidth;
+    d.demandPrice = +d.demandPrice;
+    d.demandQuantity = +d.demandQuantity;
   });
 
-  x.domain(d3.extent(data, function(d) { return d.sepalWidth; })).nice();
-  y.domain(d3.extent(data, function(d) { return d.sepalLength; })).nice();
+  x.domain(d3.extent(data, function(d) { return d.demandQuantity; })).nice();
+  y.domain(d3.extent(data, function(d) { return d.demandPrice; })).nice();
 
   svg.append("g")
       .attr("class", "x axis")
@@ -44,7 +44,7 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Sepal Width (cm)");
+      .text("Demand Quantity (units)");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -55,16 +55,16 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Sepal Length (cm)")
+      .text("Demand Price (dollars)")
 
   svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 3.5)
-      .attr("cx", function(d) { return x(d.sepalWidth); })
-      .attr("cy", function(d) { return y(d.sepalLength); })
-      .style("fill", function(d) { return color(d.species); });
+      .attr("cx", function(d) { return x(d.demandQuantity); })
+      .attr("cy", function(d) { return y(d.demandPrice); })
+      .style("fill", function(d) { return color(d.nationality); });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())

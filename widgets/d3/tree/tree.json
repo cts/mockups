@@ -1,0 +1,47 @@
+{
+ "name": " ",
+ "children": [
+   {
+    "name": "Republican",
+    "free": true,
+    "description": "GOP",
+    "children": [
+    {
+      "name": "Donald Trump",
+      "free": true,
+      "children": []
+    },
+    {
+      "name": "Ted Cruz",
+      "free": true,
+      "children": []
+    },
+    {
+      "name": "Marco Rubio",
+      "free": true,
+      "children": []
+    },
+    {
+      "name": "John Kasich",
+      "free": true,
+      "children": []
+    }]
+   },
+   {
+    "name": "Democratic",
+    "description": "Democratic Party",
+    "free": true,
+    "children": [
+    {
+      "name": "Hillary Clinton",
+      "free": true,
+      "children": []
+    },
+    {
+      "name": "Bernie Sanders",
+      "free": true,
+      "children": []
+    }]
+   }
+ ]
+}
