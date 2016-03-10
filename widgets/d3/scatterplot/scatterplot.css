@@ -12,3 +12,8 @@ body {
 .dot {
   stroke: #000;
 }
+
+.x-label,
+.y-label {
+  display: none;
+}

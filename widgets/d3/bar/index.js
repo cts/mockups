@@ -1,4 +1,7 @@
-var renderBarGraph = function(data, widget) {
+var renderBarGraph = function(scrapedObj, widget) {
+  var data = scrapedObj["data"];
+  var yLabel = scrapedObj["yLabel"];
+
   var container = d3.select(widget.get(0));
 
   var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -26,8 +29,8 @@ var renderBarGraph = function(data, widget) {
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  x.domain(data.map(function(d) { return d.letter; }));
-  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+  x.domain(data.map(function(d) { return d.key; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
   svg.append("g")
       .attr("class", "x axis")
@@ -42,19 +45,19 @@ var renderBarGraph = function(data, widget) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Frequency");
+      .text(yLabel);
 
   svg.selectAll(".bar")
       .data(data)
       .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
+      .attr("x", function(d) { return x(d.key); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.frequency); })
-      .attr("height", function(d) { return height - y(d.frequency); });
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); });
 
   function type(d) {
-    d.frequency = +d.frequency;
+    d.value = +d.value;
     return d;
   }
 }

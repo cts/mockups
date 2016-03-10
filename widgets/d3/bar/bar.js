@@ -1,5 +1,6 @@
 window.onload = function() {
-  var data = scrape()
+  var scrapedObj = scrape();
+  var data = scrapedObj["data"];
   var margin = {top: 20, right: 20, bottom: 30, left: 40},
       width = 960 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
@@ -25,8 +26,8 @@ window.onload = function() {
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  x.domain(data.map(function(d) { return d.letter; }));
-  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+  x.domain(data.map(function(d) { return d.key; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
   svg.append("g")
       .attr("class", "x axis")
@@ -47,13 +48,13 @@ window.onload = function() {
       .data(data)
       .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
+      .attr("x", function(d) { return x(d.key); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.frequency); })
-      .attr("height", function(d) { return height - y(d.frequency); });
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); });
 
   function type(d) {
-    d.frequency = +d.frequency;
+    d.value = +d.value;
     return d;
   }
 }

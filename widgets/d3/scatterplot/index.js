@@ -47,7 +47,7 @@ var renderScatterplot = function(widget) {
         .attr("x", width)
         .attr("y", -6)
         .style("text-anchor", "end")
-        .text("Sepal Width (cm)");
+        .text($(".x-label").text());
 
     svg.append("g")
         .attr("class", "y axis")
@@ -58,7 +58,7 @@ var renderScatterplot = function(widget) {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Sepal Length (cm)")
+        .text($(".y-label").text())
 
     svg.selectAll(".dot")
         .data(data)

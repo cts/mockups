@@ -58,7 +58,7 @@ var renderStackedBarChart = function(widget) {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Population");
+        .text($(".y-label").text());
 
     var state = svg.selectAll(".state")
         .data(data)
@@ -98,7 +98,7 @@ var renderStackedBarChart = function(widget) {
 
 CTS.loaded.then(function() {
   CTS.on('cts-received-graft', function(event) {
-    var widget = event.target.value;
+    var widget = event.target.value.find(".stacked-bar-chart");
     renderStackedBarChart(widget);
   });
 });

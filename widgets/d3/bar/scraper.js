@@ -3,11 +3,14 @@ function scrape() {
   $(".data .row").each(function(index, value) {
     var values = $(value).find("span");
     var obj = {
-      "letter": $(values[0]).text(),
-      "frequency": parseFloat($(values[1]).text())
+      "key": $(values[0]).text(),
+      "value": parseFloat($(values[1]).text())
     }
     data.push(obj)
   });
 
-  return data
+  return {
+    "data": data,
+    "yLabel": $(".y-label").text()
+  }
 }

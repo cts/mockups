@@ -16,3 +16,7 @@ body {
 .x.axis path {
   display: none;
 }
+
+.y-label {
+  display: none;
+}

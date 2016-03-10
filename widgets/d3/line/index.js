@@ -72,7 +72,7 @@ var renderLineChart = function(widget) {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Temperature (ºF)");
+        .text($(".y-label").text());
 
     var city = svg.selectAll(".city")
         .data(cities)
@@ -95,7 +95,7 @@ var renderLineChart = function(widget) {
 
 CTS.loaded.then(function() {
   CTS.on('cts-received-graft', function(event) {
-    var widget = event.target.value;
+    var widget = event.target.value.find(".line-chart");
     renderLineChart(widget);
   });
 });

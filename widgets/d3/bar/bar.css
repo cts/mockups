@@ -21,6 +21,7 @@
   display: none;
 }
 
-.data {
-  /*display: none;*/
+.data, 
+.y-label {
+  display: none;
 }
