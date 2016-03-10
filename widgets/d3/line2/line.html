@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./line.css">
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="line-chart-container">
+    <div class="line-chart"></div>
+
+    <span class="y-label">Y Label</span>
+    <div class="data">
+      <div class="row"><span>3-Jan-12</span>, <span>411.23</span></div>
+      <div class="row"><span>4-Jan-12</span>, <span>413.44</span></div>
+      <div class="row"><span>5-Jan-12</span>, <span>418.03</span></div>
+      <div class="row"><span>6-Jan-12</span>, <span>422.40</span></div>
+      <div class="row"><span>9-Jan-12</span>, <span>421.73</span></div>
+      <div class="row"><span>10-Jan-12</span>, <span>423.24</span></div>
+      <div class="row"><span>11-Jan-12</span>, <span>422.55</span></div>
+      <div class="row"><span>12-Jan-12</span>, <span>421.39</span></div>
+      <div class="row"><span>13-Jan-12</span>, <span>419.81</span></div>
+      <div class="row"><span>17-Jan-12</span>, <span>424.70</span></div>
+      <div class="row"><span>18-Jan-12</span>, <span>429.11</span></div>
+      <div class="row"><span>19-Jan-12</span>, <span>427.75</span></div>
+      <div class="row"><span>20-Jan-12</span>, <span>420.30</span></div>
+      <div class="row"><span>23-Jan-12</span>, <span>427.41</span></div>
+      <div class="row"><span>24-Jan-12</span>, <span>420.41</span></div>
+      <div class="row"><span>25-Jan-12</span>, <span>446.66</span></div>
+      <div class="row"><span>26-Jan-12</span>, <span>444.63</span></div>
+      <div class="row"><span>27-Jan-12</span>, <span>447.28</span></div>
+      <div class="row"><span>30-Jan-12</span>, <span>453.01</span></div>
+      <div class="row"><span>31-Jan-12</span>, <span>456.48</span></div>
+      <div class="row"><span>1-Feb-12</span>, <span>456.19</span></div>
+      <div class="row"><span>2-Feb-12</span>, <span>455.12</span></div>
+      <div class="row"><span>3-Feb-12</span>, <span>459.68</span></div>
+      <div class="row"><span>6-Feb-12</span>, <span>463.97</span></div>
+      <div class="row"><span>7-Feb-12</span>, <span>468.83</span></div>
+      <div class="row"><span>8-Feb-12</span>, <span>476.68</span></div>
+      <div class="row"><span>9-Feb-12</span>, <span>493.17</span></div>
+      <div class="row"><span>10-Feb-12</span>, <span>493.42</span></div>
+      <div class="row"><span>13-Feb-12</span>, <span>502.60</span></div>
+      <div class="row"><span>14-Feb-12</span>, <span>509.46</span></div>
+      <div class="row"><span>15-Feb-12</span>, <span>497.67</span></div>
+      <div class="row"><span>16-Feb-12</span>, <span>502.21</span></div>
+      <div class="row"><span>17-Feb-12</span>, <span>502.12</span></div>
+      <div class="row"><span>21-Feb-12</span>, <span>514.85</span></div>
+      <div class="row"><span>22-Feb-12</span>, <span>513.04</span></div>
+      <div class="row"><span>23-Feb-12</span>, <span>516.39</span></div>
+      <div class="row"><span>24-Feb-12</span>, <span>522.41</span></div>
+      <div class="row"><span>27-Feb-12</span>, <span>525.76</span></div>
+      <div class="row"><span>28-Feb-12</span>, <span>535.41</span></div>
+      <div class="row"><span>29-Feb-12</span>, <span>542.44</span></div>
+      <div class="row"><span>1-Mar-12</span>, <span>544.47</span></div>
+      <div class="row"><span>2-Mar-12</span>, <span>545.18</span></div>
+      <div class="row"><span>5-Mar-12</span>, <span>533.16</span></div>
+      <div class="row"><span>6-Mar-12</span>, <span>530.26</span></div>
+      <div class="row"><span>7-Mar-12</span>, <span>530.69</span></div>
+      <div class="row"><span>8-Mar-12</span>, <span>541.99</span></div>
+      <div class="row"><span>9-Mar-12</span>, <span>545.17</span></div>
+      <div class="row"><span>12-Mar-12</span>, <span>552.00</span></div>
+      <div class="row"><span>13-Mar-12</span>, <span>568.10</span></div>
+      <div class="row"><span>14-Mar-12</span>, <span>589.58</span></div>
+      <div class="row"><span>15-Mar-12</span>, <span>585.56</span></div>
+      <div class="row"><span>16-Mar-12</span>, <span>585.57</span></div>
+      <div class="row"><span>19-Mar-12</span>, <span>601.10</span></div>
+      <div class="row"><span>20-Mar-12</span>, <span>605.96</span></div>
+      <div class="row"><span>21-Mar-12</span>, <span>602.50</span></div>
+      <div class="row"><span>22-Mar-12</span>, <span>599.34</span></div>
+      <div class="row"><span>23-Mar-12</span>, <span>596.05</span></div>
+      <div class="row"><span>26-Mar-12</span>, <span>606.98</span></div>
+      <div class="row"><span>27-Mar-12</span>, <span>614.48</span></div>
+      <div class="row"><span>28-Mar-12</span>, <span>617.62</span></div>
+      <div class="row"><span>29-Mar-12</span>, <span>609.86</span></div>
+      <div class="row"><span>30-Mar-12</span>, <span>599.55</span></div>
+    </div>
+  </div>
+  <script src="./scraper.js"></script>
+  <script src="./line.js"></script>
+</body>
+</html>
